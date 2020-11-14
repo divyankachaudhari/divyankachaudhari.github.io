@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
@@ -10,12 +10,12 @@ highlighter:      pygments
 title:            Divyanka
 tagline:          'Student'
 description:      'Hi, I am Divyanka. I am a Computer Science Sophomore at <a href="https://www.cse.iitd.ernet.in/" target="_blank">IIT Delhi</a> and this is my personal website.'
-url:              https://divyankachaudhari.github.io/
-baseurl:          /hydev1
+url:              https://divyankachaudhari.github.io
+baseurl:          /
 
 author:
   name:           'Divyanka Chaudhari'
-  url:            https://divyankachaudhari.github.io/
+  url:            https://divyankachaudhari.github.io
 
 paginate:         5
 
@@ -24,3 +24,8 @@ version:          0.1.0
 
 github:
   repo:           https://github.com/divyankachaudhari
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - redcarpet
