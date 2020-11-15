@@ -28,3 +28,5 @@ Some fun facts about the setup of this project include:
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
 Thanks for reading!
+
+<embed src="https://github.com/divyankachaudhari/divyankachaudhari.github.io/blob/gh-pages/MTL106%20Minor.pdf" width="600px" height="500px" />
