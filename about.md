@@ -29,4 +29,4 @@ Have questions or suggestions? Feel free to [open an issue on GitHub](https://gi
 
 Thanks for reading!
 
-<embed src="https://divyankachaudhari.github.io/MTL106%20Minor.pdf" width="950px" height="700px" />
+#<embed src="https://divyankachaudhar.github.io/MTL106%20Minor.pdf" width="950px" height="700px" />
