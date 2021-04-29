@@ -4,29 +4,20 @@ title: About
 ---
 
 <p class="message">
-  Hey theresddsd! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Some things Man was never meant to know. For everything else, there's Google. 
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Welcome to my website. I am a sophomore at IIT Delhi pursuing an undergrad in Computer Science and Engineering.
 
-There are currently two themes built on Poole:
+I am very passionate about computer science, mathematics and software engineering. I am currently pursuing my fourth semester at IIT Bombay.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+This site will contain links to my projects, reports and notes that I will be creating during my stay at IITD. I am currently exploring the field of quantum computing and reinforcement learning over the summers. I am also interested in algorithms and competitive programming (although not terribly good at it) and I spend my time on it as well. 
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+I want to work towards creating accessible and high quality educational resources. I've lived and learned over the internet, and want to give back. Last summer, I also launched covedindia.org with my friends. 
 
-## Setup
+Other than academics, I play sports and am a violinist. I've played at national level before and have participated in inter-IIT at college level. I like reading a lot (science-fiction short stories especially) and I spend a lot of time lurking on reddit. I also very intrigued by world politics and history and feel free to chat with me regarding these topics. I also write on Quora sometimes and hopefully on this site. Recently I’ve gotten into listening to a lot of japanese rock and I also hold indie rock close to my heart.
 
-Some fun facts about the setup of this project include:
+Feel free to contact me regarding any topic through my Github, LinkedIn, or e-mail.
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
-
-#<embed src="https://divyankachaudhar.github.io/MTL106%20Minor.pdf" width="950px" height="700px" />
+<!-- #<embed src="https://divyankachaudhar.github.io/MTL106%20Minor.pdf" width="950px" height="700px" /> -->
