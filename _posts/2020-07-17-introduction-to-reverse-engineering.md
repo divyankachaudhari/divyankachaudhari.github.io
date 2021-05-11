@@ -182,9 +182,8 @@ Now we haven't seen where our input is getting stored. Turns out it is getting s
 
 So if our input is equal to the value `51615h` (which is given in hex) we will get `1` in `EAX` and hence that has to be the PIN! Converting this to binary we get `333333` as this value.
 
-Let us input this and see what wheter this is correct or not.
+Let us input this and see what whether this is correct or not.
 
-![](/images/final.png)
 
 And indeed we get "PIN benar!" This is the PIN and we found the PIN using some clever disassembly and investigative skills!
 
