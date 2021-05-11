@@ -8,9 +8,9 @@ tags:
 - reverse
 ---
 
-In the last tutorial we investigated using assembly for reverse engineering by using IDA to observe the assembly code of the executable. Understanding assembly is incredibly useful and allows one to understand how the internals of the program are working. However sometimes figuring and reversing the logic of the program using just assembly becomes extremely difficuly especially if the program is complicated.
+In the last article we investigated using assembly for reverse engineering by using IDA to observe the assembly code of the executable. Understanding assembly is incredibly useful and allows one to understand how the internals of the program are working. However sometimes figuring and reversing the logic of the program using just assembly becomes extremely difficuly especially if the program is complicated.
 
-Fortunately a different class of programs known as decompilers allow us to essentially get the pseudocode from the assembly generated and use this to reverse the program. Ofcourse this code won't be perfect and in most cases it won't run. But analysing this pseudocode is far easier than working with assembly and we will be seeing how we can use this to solve problems.
+Fortunately a different class of programs known as decompilers allow us to essentially get the pseudocode from the assembly generated and use this to reverse the program. This code won't be perfect and in most cases it won't run. But analysing this pseudocode is far easier than working with assembly and we will be seeing how we can use this to solve problems.
 
 We will be using the ghidra decompiler written by the National Security Agency (it is opensourced so you don't have to worry about security risks). ghidra is a complete reversing toolkit which is very powerful however it can be a bit non friendly to use. Instead we will use cutter which is based on the radare2 platform and uses ghidra for decompilation.
 
@@ -37,7 +37,7 @@ We will demonstrate how to use cutter using this [crackme](https://crackmes.one/
 
 Crackmes.one has a lot of files that you need to crack and this is a relatively simple one. It's called ZED-Frequency. Let's try running it (remember you may need to `chmod+x` so that this executable can be run.):
 
-It seems that you need to pass a keyfile. Let us create a simple file with the text "CSEAIITB" and pass it as a keyfile.
+It seems that you need to pass a keyfile. Let us create a simple file with the text "CSEAIITD" and pass it as a keyfile.
 
 So a particular key is generated from this text. We need to figure out the correct key and what generates this key. This is the challenge. Let's load this file in cutter.
 
