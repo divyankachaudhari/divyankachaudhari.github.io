@@ -7,7 +7,7 @@ title: About
   Does anything matter?
 </p>
 
-Hi, I'm Divyanka and welcome to my personal website. I am a sophomore at IIT Delhi pursuing Computer Science and Engineering. I'm currently interning at Google India.
+Hi, I'm Divyanka Chaudhari and welcome to my personal website. I am a sophomore at IIT Delhi pursuing Computer Science and Engineering. I'm currently interning at Google India.
 
 I am very passionate about computer science, mathematics and software engineering. I'm currently trying to build up this website by adding my side-projects to it. The fields of programming languages theory and computer architecture are currently intriguing to me, and I'm trying to learn more about them and their research area. On the side, I want to learn contributing to open source, learn to solve bugs in large codebases and more. 
 
