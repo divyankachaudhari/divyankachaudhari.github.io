@@ -7,7 +7,7 @@ title: About
   Does anything matter?
 </p>
 
-Welcome to my website. I am a sophomore at IIT Delhi pursuing an undergrad in Computer Science and Engineering. I'm currently interning at Google India.
+Hi, I'm Divyanka and welcome to my personal website. I am a sophomore at IIT Delhi pursuing an undergrad in Computer Science and Engineering. I'm currently interning at Google India.
 
 I am very passionate about computer science, mathematics and software engineering. I am currently pursuing my fourth semester at IIT Bombay.
 
