@@ -37,9 +37,7 @@ We will demonstrate how to use cutter using this [crackme](https://crackmes.one/
 
 Crackmes.one has a lot of files that you need to crack and this is a relatively simple one. It's called ZED-Frequency. Let's try running it (remember you may need to `chmod+x` so that this executable can be run.):
 
-![](/images/run.png)
-
-It seemst that you need to pass a keyfile. Let us create a simple file with the text "CSEAIITB" and pass it as a keyfile.
+It seems that you need to pass a keyfile. Let us create a simple file with the text "CSEAIITB" and pass it as a keyfile.
 
 So a particular key is generated from this text. We need to figure out the correct key and what generates this key. This is the challenge. Let's load this file in cutter.
 
@@ -80,8 +78,6 @@ f.close()
 
 {% endhighlight %}
 
-Now if we pass this key to the program we see the following output:
 
-![](/images/fin.png)
 
 That sums up this crackme. This was a pretty simple example which was made extremely simple using a decompiler. This tool is very useful for complex ctf problems where having a code to go back to while at the same time looking at the assembly can be useful. 
