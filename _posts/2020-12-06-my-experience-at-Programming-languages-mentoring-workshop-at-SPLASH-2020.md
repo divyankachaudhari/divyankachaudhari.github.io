@@ -1,5 +1,4 @@
-2020-12-06-my-experience-at-Programming-languages-mentoring-workshop-at-SPLASH-2020.md
-My experience at PL mentoring workshop @ SPLASH 2020
+
 
 Functional programming, does the term not seem cool? This led me to explore what research area  it came under in the past summer, then came my attempt to learn haskell. Programming languages it was, oh was there not so much.
 
