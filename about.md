@@ -7,11 +7,11 @@ title: About
   Does anything matter?
 </p>
 
-Welcome to my website. I am a sophomore at IIT Delhi pursuing an undergrad in Computer Science and Engineering.
+Welcome to my website. I am a sophomore at IIT Delhi pursuing an undergrad in Computer Science and Engineering. I'm currently interning at Google India.
 
 I am very passionate about computer science, mathematics and software engineering. I am currently pursuing my fourth semester at IIT Bombay.
 
-I'm currently trying to build up this website by adding my side-projects to it.. I am currently exploring the field of programming languages theory by myself. I'm also intrigued by computer architecture, and try to learn more about that and its research area. 
+I'm currently trying to build up this website by adding my side-projects to it.. I am currently exploring the field of programming languages theory by myself. I'm also intrigued by computer architecture, and try to learn more about that and its research area. I want to learn contributing to open source, learn to solve bugs in large codebases and more. 
 
 I want to work towards creating accessible and high quality educational resources. I've lived and learned over the internet, and want to give back. Last summer, I also launched [CovEd India](https://www.covedindia.org/) with my friends. I also want to work on creating high quality Computer Science content.
 
