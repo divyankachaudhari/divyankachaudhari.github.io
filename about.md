@@ -13,6 +13,8 @@ I am very passionate about computer science, mathematics and software engineerin
 
 I want to work towards creating accessible and high quality educational resources. I've lived and learned over the internet, and want to give back. Last summer, I also launched [CovEd India](https://www.covedindia.org/) with my friends. I also want to work on creating high quality Computer Science content.
 
-Other than academics, I play sports and am a violinist. I've played at national level before and have participated in inter-IIT at college level. I like reading a lot (science-fiction is my favorite). I also like non-fiction a lot, and I always keep buying new books to read them off and then buy new ones! 
+Other than academics, I play sports and am a violinist. I've played at national level before and have participated in inter-IIT at college level. I like reading a lot, especially non-fiction now-a-days. I always keep buying new books to read them off to buy new ones! I have been trying to improve my writing skills by carefully looking at what I write. 
+
+
 
 <!-- #<embed src="https://divyankachaudhar.github.io/MTL106%20Minor.pdf" width="950px" height="700px" /> -->
