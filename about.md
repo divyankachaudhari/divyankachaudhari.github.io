@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Some things Man was never meant to know. For everything else, there's Google.
+  Does anything matter?
 </p>
 
 Welcome to my website. I am a sophomore at IIT Delhi pursuing an undergrad in Computer Science and Engineering.
