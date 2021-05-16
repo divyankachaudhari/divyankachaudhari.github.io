@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reverse Engineering using Cutter
+title: More Reverse Engineering
 permalink: reverse-engineering-using-cutter
 redirect_from: "/2020/07/23/reverse-engineering-using-cutter/"
 tags:
@@ -80,4 +80,4 @@ f.close()
 
 
 
-That sums up this crackme. This was a pretty simple example which was made extremely simple using a decompiler. This tool is very useful for complex ctf problems where having a code to go back to while at the same time looking at the assembly can be useful. 
+That sums up this crackme. This was a pretty simple example which was made extremely simple using a decompiler. This tool is very useful for complex ctf problems where having a code to go back to while at the same time looking at the assembly can be useful.
