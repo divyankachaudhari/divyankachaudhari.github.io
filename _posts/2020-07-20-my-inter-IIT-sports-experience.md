@@ -1,3 +1,9 @@
+---
+layout: post
+title: My Inter-IIT Sports Experience
+---
+
+
 23 IITs. 7+ days. 13 sports events. Inter-IIT Sports Meet is the longest running inter-collegiate meet in India since 1961. It is one of the most prestigious events which IITs look forward to.
 
 ![](/images/inter-iit1.png)
