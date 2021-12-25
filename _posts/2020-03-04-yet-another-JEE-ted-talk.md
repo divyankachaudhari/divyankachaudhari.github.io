@@ -1,0 +1,16 @@
+Originally answered on Quora to "How does JEE feel?"
+
+How does JEE feel? JEE is an experience.
+
+An experience of hard work, challenges, goals, aspirations, emotions, failures, fleeting success, learning, overcoming and realizing along with all those little moments of triumph sandwiched in the overwhelming experience of everything.
+
+It’s not just an exam, it’s all of everything which stems from it.
+
+A simple search about JEE puts up why, how and where one should prepare for JEE. An important point in a high-schooler’s life. Some learn of it only later but there is are many who start their preparation way before. “I want to get into an IIT” is a dream of many. Lakhs aspire, dream and hope for it. Everyone in their different way, what their surroundings allow them to. There are those born with luxuries and comfort of all resources on hand and then there are others who have to work their way up. Support of family, friends and teachers make a huge difference. It goes underestimated at times. Everyone knows the sheer competition but we all experience it at different points in time. Tests over tests put us under scrutiny. We learn. Different parents react differently. We adapt. Adapt to our results, our position or just the reality. Other exams exist in way, but JEE still holds the utmost importance. We fall down numerous times, but a lot fight and don’t give up.
+
+Your JEE experience is and will be different than everyone else. It's one of the key aspects. One could never know what’s going on in someone else’s mind. A task could be equally difficult and easy for students on different spectrums of scale. How you grew up, how your work ethics are, what resources you have and how you make use of everything that’s given to you creates differences. The test is how true one is to self. How one works through their problems and diminishes gaps pulling them down. Everyone has their mechanism, and a plethora of emotions and thoughts throughout. It’s not just working through subjects it’s working through self to keep motivation high, look at mistakes, analyze, learn and revise.
+
+JEE is often the first thing in students’ life which prepare them for the life ahead. It’s an excellent teacher. Some don’t like to recall their times or are neutral but there are those too who look back and cherish. I cherish on my JEE times however they were. Not because I haven’t moved on to better things in life. They certainly weren’t sunshine all days. But even failures give hope, however clichéd it may sound. JEE advice is being given so widely that all of it sounds almost the same. But we all know what’s to be done. Will to work makes wonders. Experience also teaches us to be smart to tackle anything that comes along. Some cry over the fact that they aren’t naturally smart. “Not everything can be achieved by working hard! I work so hard.” It’s either an excuse or they don’t know their potential yet or they really aren’t smart enough to understand that happiness in life doesn’t come by crying over something not in one’s hands. Part of it comes by maximising your potential. Learning to be at peace with what comes and knowing how you played your role in it. How high you'll rise is determined by how well you think.
+
+But in the end, even if not pleasant, JEE is one different phase.
+
