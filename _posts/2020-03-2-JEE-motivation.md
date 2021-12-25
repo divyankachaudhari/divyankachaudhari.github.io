@@ -1,3 +1,8 @@
+---
+layout: post
+title: JEE Motivation
+---
+
 Originally answered on Quora to "ow can I stay motivated during JEE preparation?"
 
 Sucking at anything is a depressingly easy thing to do. If you don't like pulling things apart until you can see their fundamental structures, you're in trouble.

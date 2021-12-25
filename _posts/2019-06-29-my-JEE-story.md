@@ -1,3 +1,8 @@
+---
+layout: post
+title: My JEE Story
+---
+
 It all started in the summer of 2017 when I started my JEE preparation with my full zeal. I had attended foundations and had a keen interest in what I was doing and hence had a strong motivation to get going. It was slow but steady, pretty much like many aspirants out there.
 
 I was a school attending student, so had to attend school and classes. It was easy in the start for the syllabus was so little.“I can handle everything.” I would say to myself. I had my goals and aims, very lofty dreams.
