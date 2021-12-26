@@ -1,6 +1,6 @@
 As usual, the first facebook is down intimation comes when you’re chatting on some whatsapp group and suddenly you can’t send messages anymore. You wonder, is it my internet? Then after realisation that servers are down, you wait for few minutes to pass. Quickly switching to signal/telegram just when whatsapp is down is well, ah. 
 
-15 minutes, 30 minutes, 1 hour, 4 hours?! It's 1:30 AM IST on 5 October right now. People going crazy on twitter. I made my twitter account for the first time and hey look what I twitted. 
+15 minutes, 30 minutes, 1 hour, 4 hours?! It's 1:30 AM IST on 5 October right now. People are going crazy on twitter. I made my twitter account for the first time and hey look what I tweeted. 
 
 <blockquote class="twitter-tweet" data-lang="en" data-theme="dark"><p lang="en" dir="ltr">just setting up my twttr</p>&mdash; Divyanka Chaudhari (@divyankacx) <a href="https://twitter.com/divyankacx/status/1445111473781370884?ref_src=twsrc%5Etfw">October 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
