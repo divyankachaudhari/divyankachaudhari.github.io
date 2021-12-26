@@ -22,7 +22,7 @@ Some cool things:
 - [xkcd](https://xkcd.com/), a webcomic of romance, sarcasm, math, and language.
 - [The evolution of trust game](https://ncase.me/trust/) based on game theory.
 - [This weird ciphered subreddit](https://www.reddit.com/r/f04cb41f154db2f05a4a/).
-- ASAP science's [Periodic table song](https://youtu.be/rz4Dd1I_fX0) which I remember by heart.
+- ASAP science's [periodic table song](https://youtu.be/rz4Dd1I_fX0) which I remember by heart.
 - Me, I'm cool.
 
 Website template is [Hyde](https://github.com/poole/hyde).
