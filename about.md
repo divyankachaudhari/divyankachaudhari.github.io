@@ -18,5 +18,5 @@ Talking beyond academics, I play sports and am trying to get into music. I've pl
 My [LinkedIn](https://www.linkedin.com/in/divyanka-chaudhari/) may help with my work experience, also this is my [github](https://github.com/divyankachaudhari)/[gitlab](https://gitlab.com/divyanka.chaudhari25).
 
 --------
-Website template is [Hyde](https://github.com/poole/hyde) based on [Ruby](https://www.ruby-lang.org/en/).
+Website template is [Hyde](https://github.com/poole/hyde).
 <!-- #<embed src="https://divyankachaudhar.github.io/MTL106%20Minor.pdf" width="950px" height="700px" /> -->
