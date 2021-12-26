@@ -18,5 +18,12 @@ Talking beyond academics, I play sports and am trying to get into music. I've pl
 My [LinkedIn](https://www.linkedin.com/in/divyanka-chaudhari/) may help with my work experience, also this is my [github](https://github.com/divyankachaudhari)/[gitlab](https://gitlab.com/divyanka.chaudhari25).
 
 --------
+Some cool things:
+- [xkcd](https://xkcd.com/), a webcomic of romance, sarcasm, math, and language.
+- [The evolution of trust game](https://ncase.me/trust/) based on game theory.
+- [This weird ciphered subreddit](https://www.reddit.com/r/f04cb41f154db2f05a4a/).
+- ASAP science's [Periodic table song](https://youtu.be/rz4Dd1I_fX0) which I remember by heart.
+- Me, I'm cool.
+
 Website template is [Hyde](https://github.com/poole/hyde).
 <!-- #<embed src="https://divyankachaudhar.github.io/MTL106%20Minor.pdf" width="950px" height="700px" /> -->
