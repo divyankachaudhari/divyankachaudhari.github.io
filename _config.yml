@@ -25,6 +25,8 @@ version:          0.1.0
 github:
   repo:           https://github.com/divyankachaudhari
 
+youtube:          https://www.youtube.com/channel/UCLzkZmJgOHQAHZqffDJ1e-g
+
 plugins:
   - jekyll-paginate
   - jekyll-gist
