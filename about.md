@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About1
+title: About
 profile:
   align: left
   image: images/p1.jpg
