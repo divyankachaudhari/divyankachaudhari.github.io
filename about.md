@@ -9,7 +9,7 @@ title: About
 
 Hi, I'm Divyanka Chaudhari and welcome to my personal website. I am a junior at IIT Delhi pursuing Computer Science and Engineering.
 
-I am interested in computer science and software engineering. I'm currently trying to build up this website by adding my side-projects to it. The field of operating systems is currently intriguing to me, and I'm trying to learn more about it and its research area. On the side, I want to learn contributing to open source, learn to understand large codebases and more. I'm also learning to write cleaner code, and the various software engineering practices.
+I am interested in computer science and software engineering. I'm currently trying to build up this website by adding my side-projects to it. The field of operating systems is currently intriguing to me, and I'm trying to learn more about it and its research area. On the side, I want to learn contributing to open source, learn to understand large codebases and more. 
 
 I want to work towards creating accessible and high quality educational resources. I've lived and learned over the internet, and want to give back. Last (to last?) summer, I also launched [CovEd India](https://www.covedindia.org/) with my friends onset of pandemic. 
 
