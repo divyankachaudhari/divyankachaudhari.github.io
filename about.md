@@ -1,6 +1,9 @@
 ---
 layout: page
 title: About
+profile:
+  align: left
+  image: images/p1.jpg
 ---
 
 <p class="message">
