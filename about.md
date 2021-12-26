@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Does anything matter?
+  Nothing matters, but that's why I want to live.
 </p>
 
 Hi, I'm Divyanka Chaudhari and welcome to my personal website. I am a junior at IIT Delhi pursuing Computer Science and Engineering.
