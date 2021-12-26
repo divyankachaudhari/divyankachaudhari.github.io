@@ -4,7 +4,7 @@ title: My 2019 inter-IIT sports experience
 ---
 
 
-23 IITs. 7+ days. 13 sports events. Inter-IIT Sports Meet is the longest running inter-collegiate meet in India since 1961. It is one of the most prestigious events which IITs look forward to.
+*23 IITs. 7+ days. 13 sports events.* Inter-IIT Sports Meet is the longest running inter-collegiate meet in India since 1961. It is one of the most prestigious events which IITs look forward to.
 
 ![](/images/inter-iit1.png)
 
@@ -27,6 +27,8 @@ The evening of 14th had the opening ceremony with speeches, march past and torch
 And hence, the meet started. While a lot of events were held on 14th, athletics events were going to start on 15th. Athletics, basketball, cricket, hockey, football and more. When we were free, we slipped off to other sports events to watch them. Cheer for our team, or if not ours then for the teams playing. In Athletics, we cheered in every slot every day because we had players in all events. From heats to finals; running, jumping and throwing all mornings and evenings. We cheered and anticipated good results. Everyone did that for their institutes. There were mini celebrations everyday. Our track and field team was one of the best and what I learnt from my team was the integrity everyone showcased despite the results. It was the support and encouragement that everyone gave to each other which made our team what it was. Along with that, everyone had their fair share of enjoyment and fun when it wasn’t practice or event time. When it was helping time, we filled up glucose bottles, had snacks and took care of all the needs the participants from our team would require. Everyone whose event wasn’t on that day fell in the helping team. Being one of the only two freshers on the athletics team, I didn’t feel excluded even if I hadn’t known my team for long. While the respective teams were handled by their captains, the contingent was led by different heads who acted as bridge between different sports and were responsible to coordinate and give news of wins & losses. My event was high jump, and while I didn’t do good enough in the spur of the moment, my teammates and friends didn’t let me go down. Somewhere in between when we got time, we explored the campus, roamed around and discovered new things.
 
 ![](/images/inter-iit6.png)
+
+[Rightmost column middle is me]
 
 Apart from the main events going on, there were other programmes too. We had two pronites featuring Jubin Nautiyal and Julia Bliss. I didn’t attend either but heard from others that they were quite fun. There were also other small activities in the days for entertainment. On the second last day, we had the Gala dinner night. The Gala dinner night is a tradition of the meet which is open to all participants. This time it had entry with our ID cards. There was dance, music and a lot of delicious food. While we were supposed to dress up all nice for this night, several of us ended up in our tracks because we had directly come after cheering and watching our basketball team win at the basketball court. It’s typical athlete behaviour to go everywhere in sportswear and many are proud of it.
 
