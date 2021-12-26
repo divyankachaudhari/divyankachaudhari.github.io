@@ -4,7 +4,7 @@ title: My 2019 inter-IIT sports experience
 ---
 
 
-*23 IITs. 7+ days. 13 sports events.* Inter-IIT Sports Meet is the longest running inter-collegiate meet in India since 1961. It is one of the most prestigious events which IITs look forward to.
+**23 IITs. 7+ days. 13 sports events.** Inter-IIT Sports Meet is the longest running inter-collegiate meet in India since 1961. It is one of the most prestigious events which IITs look forward to.
 
 ![](/images/inter-iit1.png)
 
@@ -28,7 +28,7 @@ And hence, the meet started. While a lot of events were held on 14th, athletics 
 
 ![](/images/inter-iit6.png)
 
-[Rightmost column middle is me]
+*I'm rightmost column middle*
 
 Apart from the main events going on, there were other programmes too. We had two pronites featuring Jubin Nautiyal and Julia Bliss. I didn’t attend either but heard from others that they were quite fun. There were also other small activities in the days for entertainment. On the second last day, we had the Gala dinner night. The Gala dinner night is a tradition of the meet which is open to all participants. This time it had entry with our ID cards. There was dance, music and a lot of delicious food. While we were supposed to dress up all nice for this night, several of us ended up in our tracks because we had directly come after cheering and watching our basketball team win at the basketball court. It’s typical athlete behaviour to go everywhere in sportswear and many are proud of it.
 
