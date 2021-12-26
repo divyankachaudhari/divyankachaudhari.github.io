@@ -4,7 +4,7 @@ title: Resume
 ---
 # Resume 
 
-This is my short resume but I highly suggest you to look around this website and follow the pages linked on the sidebar to know me better. I'll be returning as a SWE intern at Google next summer. 
+This is my short resume but I highly suggest you to look around this website and follow the pages linked on the sidebar to know me better. I'll be returning as a SWE intern at Google in Summer'22. 
 
 Thank you for your time!
 
