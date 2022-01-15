@@ -10,4 +10,5 @@ Thank you for your time!
 
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
-<embed src="https://divyankachaudhari.github.io/cv.pdf" width="950px" height="700px" />
+<!-- <embed src="https://divyankachaudhari.github.io/cv.pdf" width="950px" height="700px" /> -->
+\text{**Google India, Inc.**, Software Engineering STEP Intern} \hfill \text{_Copenhagen_}
