@@ -12,3 +12,5 @@ It seems that facebook’s DNS names have stopped resolving. So, all the routes 
 With this I remembered that when I was interning at Google, my host had explained how such outage problems cause frenzy in large companies. Facebook engineers, you can do this. The whole internet is feeling the heat of it. 
 
 On another note, I heard that facebook recruiters are still conducting interviews over phone at this time. Truly, modern problems require modern solutions.
+
+Also god I'm sleepy.
