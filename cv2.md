@@ -18,7 +18,7 @@ I highly suggest you to look around this website and follow the pages linked on 
 
 ## Education
 
-- `2019-2024` *Computer Science and Engineering*, **IIT Delhi** -- B.Tech + M.Tech
+- `2019-2024` Computer Science and Engineering, **IIT Delhi** -- Bachelors and Masters in Technology
 
 
 ## Experience
