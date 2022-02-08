@@ -1,5 +1,6 @@
 <!doctype html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  {% include head.html %}
 <head>
   <meta charset=utf-8 />
   <title> {% if page.title %} {{ page.title }} | {% endif %} CV</title>
@@ -9,6 +10,8 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 </head>
 <body>
+  {% include sidebar.html %}
+  
   <div id="main">
     <div id="content">
     {{ content }}
