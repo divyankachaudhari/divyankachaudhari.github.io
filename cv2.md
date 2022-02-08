@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cv
 title: David Whipp's CV
 ---
 # David Whipp
