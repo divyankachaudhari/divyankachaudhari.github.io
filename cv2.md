@@ -18,11 +18,9 @@ I highly suggest you to look around this website and follow the pages linked on 
 
 ## Education
 
-`2003-2008`
-**Ph.D., Geology**, *University of Michigan*, Ann Arbor, MI, USA.
+`2019-2024`
+**Bachelors and Masters in Technology, Computer Science and Engineering**, *IIT Delhi*, New Delhi, India.
 
-`1998-2002`
-**B.S., Geology (Physics minor)**, *University of Michigan*, Ann Arbor, MI, USA.
 
 ## Experience
 
