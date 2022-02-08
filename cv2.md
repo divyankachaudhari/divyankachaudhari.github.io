@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: default
 title: Divyanka's CV
 ---
 # Divyanka Chaudhari
