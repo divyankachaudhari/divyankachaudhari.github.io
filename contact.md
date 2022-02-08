@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Contact
 profile:
   align: left
