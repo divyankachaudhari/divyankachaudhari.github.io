@@ -6,8 +6,6 @@ title: Divyanka's CV
 
 I highly suggest you to look around this website and follow the pages linked on the sidebar to know me better. I’ll be returning as a SWE intern at Google in Summer’22.
 
-<a href="{myFirstname}2511@gmail.com">{myFirstname}2511@gmail.com</a> - +358 (0)2 941 51617
-
 <div id="webaddress">
   <a href="https://divyankachaudhari.github.io"><i class="fas fa-home"></i> divyankachaudhari.github.io</a> - 
   <!-- <a href="http://www.helsinki.fi/geodynamics"><i class="fas fa-users"></i> www.helsinki.fi/geodynamics (group)</a><br/> -->
