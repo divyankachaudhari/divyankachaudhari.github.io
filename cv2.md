@@ -1,15 +1,12 @@
 ---
-layout: default
-title: David Whipp's CV
+layout: cv
+title: Divyanka's CV
 ---
-# David Whipp
-Professor, University of Helsinki
+# Divyanka Chaudhari
 
-Institute of Seismology, Department of Geosciences and Geography<br/>
-P.O. Box 68 (Pietari Kalmin katu 5)<br/>
-FI-00014 University of Helsinki, Finland<br/>
+I highly suggest you to look around this website and follow the pages linked on the sidebar to know me better. I’ll be returning as a SWE intern at Google in Summer’22.
 
-<a href="firstname.lastname@helsinki.fi">firstname.lastname@helsinki.fi</a> - +358 (0)2 941 51617
+<a href="{myFirstname}2511@gmail.com">{myFirstname}2511@gmail.com</a> - +358 (0)2 941 51617
 
 <div id="webaddress">
   <a href="https://davewhipp.github.io"><i class="fas fa-home"></i> davewhipp.github.io</a> - 
