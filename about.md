@@ -33,22 +33,4 @@ Website template is [Hyde](https://github.com/poole/hyde).
 
 <!-- <embed src="https://imgs.xkcd.com/comics/rtl.png" /> -->
 TRIAL 
-<form action="https://getform.io/f/3b240df5-97c5-49e6-94b5-d0170d21d82c" method="POST">
-    <input type="text" name="name">
-    <input type="email" name="email">
-    <input type="text" name="message">
-    <!-- checkbox handle --> 
-    <input type="checkbox" name="subscribe" value="yes" checked>
-    <input type="hidden" name="subscribe" value="no">
-    <!-- radio button handle --> 
-    <input type="radio" name="gender" value="male" checked>
-    <input type="radio" name="gender" value="female">
-    <input type="radio" name="gender" value="other">
-    <!-- select field handle --> 
-    <select name="work-experience">
-        <option value="one-year">0-1 years</option>
-        <option value="one-five-years">1-5 years</option>
-        <option value="five-plus-years">5+ years</option>
-    </select>
-    <button type="submit">Send</button>
-</form>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf2Hi9ZoWQsvLQl9M1gYx_JcbGzy_PJuzzuA7Fz6PPmhK4qQw/viewform?embedded=true" width="640" height="542" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
