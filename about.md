@@ -30,3 +30,5 @@ Some cool things:
 
 Website template is [Hyde](https://github.com/poole/hyde).
 <!-- #<embed src="https://divyankachaudhar.github.io/MTL106%20Minor.pdf" width="950px" height="700px" /> -->
+https://imgs.xkcd.com/comics/rtl.png
+#<embed src="https://imgs.xkcd.com/comics/rtl.png" />
