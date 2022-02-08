@@ -18,13 +18,14 @@ I highly suggest you to look around this website and follow the pages linked on 
 
 ## Education
 
-- `2019-2024` Computer Science and Engineering, **IIT Delhi** -- Bachelors and Masters in Technology
+- `2019-2024` Computer Science and Engineering, **IIT Delhi** -- *Bachelors and Masters in Technology*
 
 
 ## Experience
 
-`Feb 2022-present`
-**DevOps Engineer**, *Department of Geosciences and Geography, and Helsinki Institute of Sustainability Science (HELSUS), University of Helsinki*, Helsinki, Finland.
+- `Feb 2022-present` DevOps Engineering Intern, **Yokogawa** [Tokyo, Japan -- Remote]
+Fucking everything up
+
 
 `2013-2023`
 **Adjunct of the Faculty of Graduate Studies**, *Department of Earth Sciences, Dalhousie University*, Halifax, NS, Canada.
