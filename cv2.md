@@ -18,13 +18,15 @@ I highly suggest you to look around this website and follow the pages linked on 
 
 ## Education
 
-- `2019-2024\`\ Computer Science and Engineering, **IIT Delhi** -- *Bachelors and Masters in Technology*
+- `2019-2024` Computer Science and Engineering, **IIT Delhi** -- *Bachelors and Masters in Technology*
 
 
 ## Experience
 
-- `Feb 2022-present\` DevOps Engineering Intern, <a href="https://www.yokogawa.com/" target="_blank">Yokogawa</a> [Tokyo, Japan -- Remote]\
-hey
+- `Feb 2022-present`<a href="https://www.yokogawa.com/" target="_blank">Yokogawa</a> [Tokyo, Japan -- Remote]\
+**DevOps Engineering Intern**: Researching and creating digital IoT model using Azure digital twins. 
+- `May 2022-Aug 2022` <a href="https://about.google/" target="_blank">Google India</a> [Bangalore, India -- Remote]\
+**Software Engineering STEP Intern**: Part of the Google Ads team — Next Billion Users (NBU). Built the backend pipeline for a feature on Ads Storefront pages. Worked on extraction and anonymization for data to be used in privacy-secure manner.
 
 
 
