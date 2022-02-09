@@ -18,8 +18,8 @@ I highly suggest you to look around this website and follow the pages linked on 
 
 ## Education
 
-- <a href="https://home.iitd.ac.in/" target="_blank">Indian Institute of Technology Delhi</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2019 - 2024`\
-*Bachelors and Masters in Technology*, Computer Science & Engineering
+- <a href="https://home.iitd.ac.in/" target="_blank">Indian Institute of Technology Delhi</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2019 - 2024`\
+**Computer Science & Engineering**, Bachelors and Masters in Technology
 
 
 ## Experience
