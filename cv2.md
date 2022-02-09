@@ -50,38 +50,62 @@ Kokoro embeds intentions into each individual coin creating a more decentralized
 For freshmen students taking Calculus (Fall ’20) and Linear Algebra (Spring ’21).
 Responsible for conducting weekly help & doubt sessions and assisting students with the subject.
 
-- **Development Exceutive**, Board for Sports Activities &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2020-21`\
+- **Development Exceutive**, Board for Sports Activities &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2020-21`\
 Responsible for re-designing and maintaining the institute’s current Board of Sports
 Activities website with an average visitor count of 2000+ per month on Django framework as a fullstack developer.
 
-- **Athletics Captain**, Himadri House &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2020-22`\
+- **Athletics Captain**, Himadri House &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2020-22`\
 Responsible for handling sports and athletics events/initiatives of Himadri house.
 
 ---
+## Coursework done
+
 <table>
 <tr>
-<th> Good </th>
-<th> Bad </th>
+<!-- <th> Good </th>
+<th> Bad </th> -->
 </tr>
 <tr>
 <td>
 
-```c++
-int foo() {
-    int result = 4;
-    return result;
-}
-```
+COL106: Data Structures & Algorithms\
+COL202: Discrete Math for CS\
+COL215: Digital Logic & System Design\
+COP290: Design Practices in CS\
+COL216: Computer Architechture\
+COL333: Artifical Intelligence\
+COL334: Computer Networks\
+COL351: Algorithm Design\
+COL226: Programming Languages\
+COL331: Operating Systems<sup>1</sup>\
+COL352: Theory of Computation<sup>1</sup>\
+COL380: Parallel & Distributed Programming<sup>1</sup>\
+COL362: Intro to DBMS<sup>1</sup>\
+COL726: Numerical Algorithms\
+COL774: Machine Learning\
+COL780: Computer Vision\
 
 </td>
 <td>
 
-```c++
-int foo() { 
-    int x = 4;
-    return x;
-}
-```
+MTL104: Linear Algebra & Applications\
+MTL106: Probability & Stochastic Process\
+PYL102: Principals of Electric Materials\
+ELL205: Signals and Systems\
+HUL289: Perspective on Science tech & Human development\
+HUL261: Intro to Psychology\
+HUL211: Intro to Economics\
+SBL100: Intro to Biology\
+HUL307: Fantasy Literature<sup>1</sup>\
+MSV802: Selected topics in Finance\
+MSV816: Contemporary issues in Management\
+SPL810A: Advanced Topics in Policy Studies<sup>1</sup>
+
+<sub> Courses mentioned here are only those from 2<sup>nd</sup> year onwards.</sub>
+
+---
+
+
 
 </td>
 </tr>
