@@ -58,7 +58,7 @@ Activities website with an average visitor count of 2000+ per month on Django fr
 Responsible for handling sports and athletics events/initiatives of Himadri house.
 
 ---
-## Coursework done
+## Courses Completed
 
 <table style="table-layout: fixed; width:100%;" >
 <thead>
