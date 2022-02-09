@@ -18,7 +18,8 @@ I highly suggest you to look around this website and follow the pages linked on 
 
 ## Education
 
-- `2019-2024` Computer Science and Engineering, **IIT Delhi** -- *Bachelors and Masters in Technology*
+- <a href="https://home.iitd.ac.in/" target="_blank">Indian Institute of Technology Delhi</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2019 - 2024`\
+*Bachelors and Masters in Technology*, Computer Science & Engineering
 
 
 ## Experience
