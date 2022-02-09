@@ -32,7 +32,34 @@ I highly suggest you to look around this website and follow the pages linked on 
 **Software Engineering STEP Intern**: Part of the Google Ads team — Next Billion Users (NBU). Built the backend pipeline for a feature on Ads Storefront pages. Worked on extraction and anonymization for data to be used in privacy-secure manner.
 
 ---
+<table>
+<tr>
+<th> Good </th>
+<th> Bad </th>
+</tr>
+<tr>
+<td>
 
+```c++
+int foo() {
+    int result = 4;
+    return result;
+}
+```
+
+</td>
+<td>
+
+```c++
+int foo() { 
+    int x = 4;
+    return x;
+}
+```
+
+</td>
+</tr>
+</table>
 
 `2013-2023`
 **Adjunct of the Faculty of Graduate Studies**, *Department of Earth Sciences, Dalhousie University*, Halifax, NS, Canada.
