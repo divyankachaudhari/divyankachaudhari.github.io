@@ -20,11 +20,11 @@ My [LinkedIn](https://www.linkedin.com/in/divyanka-chaudhari/) may help with my 
 
 --------
 <p class="message">
-Some cool things:
-- [xkcd](https://xkcd.com/), a webcomic of romance, sarcasm, math, and language.
-- [The evolution of trust game](https://ncase.me/trust/) based on game theory.
-- [This weird ciphered subreddit](https://www.reddit.com/r/f04cb41f154db2f05a4a/).
-- ASAP science's [periodic table song](https://youtu.be/rz4Dd1I_fX0) which I remember by heart.
+Some cool things: <br>
+- <a href="https://xkcd.com/">xkcd</a>, a webcomic of romance, sarcasm, math, and language.<br>
+- <a href="https://ncase.me/trust/">The evolution of trust game</a> based on game theory.<br>
+- <a href="https://www.reddit.com/r/f04cb41f154db2f05a4a/">This weird ciphered subreddit</a>.<br>
+- ASAP science's <a href="https://youtu.be/rz4Dd1I_fX0">periodic table song</a>which I remember by heart.<br>
 - Me, I'm cool.
 </p>
 
@@ -35,7 +35,7 @@ Some cool things:
 <!-- <embed src="https://imgs.xkcd.com/comics/rtl.png" /> -->
 <!-- TRIAL 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf2Hi9ZoWQsvLQl9M1gYx_JcbGzy_PJuzzuA7Fz6PPmhK4qQw/viewform?embedded=true" width="640" height="542" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
----
+
 <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
 <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
 <script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
