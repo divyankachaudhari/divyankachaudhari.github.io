@@ -34,14 +34,30 @@ I highly suggest you to look around this website and follow the pages linked on 
 ---
 ## Projects
 - <a href="https://www.covedindia.org/" target="_blank">CovEd India</a>\
-Co-launched a web-based initiative which seeked to provide academic support and increase access to educational resources for low-resource K-12 students during the COVID-19 school closures. We connected 800+ K-12 students with undergraduate mentors across India in a span of 3 months, and we also have a resources page containing a compilation of several free online learning resources. Partnered with Khan Academy's schoolhouse.world.
+Co-launched a web-based initiative which seeked to provide academic support and increase access to educational resources for low-resource K-12 students during the COVID-19 school closures. We **connected 800+ K-12 students with undergraduate mentors across India in a span of 3 months**, and we also have a resources page containing a compilation of several free online learning resources. Partnered with Khan Academy's schoolhouse.world.
 
 -  <a href="https://devpost.com/software/kokoro" target="_blank">Kokoro Smart Coin -- Chia Hackathon Project</a>\
 Leveraging chialisp smart contract technology, based on chia blockchain
 Kokoro embeds intentions into each individual coin creating a more decentralized, secure model. Initial phase. Hackathon Finalist. 
 
-<sub>Projects done during coursework and smaller hackathons can be found at <a href="https://github.com/divyankachaudhari" target="_blank">my github</a></sub>
+<sub>*Projects done during coursework and smaller hackathons can be found at <a href="https://github.com/divyankachaudhari" target="_blank">my github</a>.</sub>
 
+---
+
+## Positions of Responsibility (at IITD)
+
+- **Academic Mentor**, Board for Student Welfare &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2020-21`\
+For freshmen students taking Calculus (Fall ’20) and Linear Algebra (Spring ’21).
+Responsible for conducting weekly help & doubt sessions and assisting students with the subject.
+
+- **Development Exceutive**, Board for Sports Activities &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2020-21`\
+Responsible for re-designing and maintaining the institute’s current Board of Sports
+Activities website with an average visitor count of 2000+ per month on Django framework as a fullstack developer.
+
+- **Athletics Captain**, Himadri House &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2020-22`\
+Responsible for handling sports and athletics events/initiatives of Himadri house.
+
+---
 <table>
 <tr>
 <th> Good </th>
