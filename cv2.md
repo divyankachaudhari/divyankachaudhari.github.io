@@ -28,15 +28,15 @@ I highly suggest you to look around this website and follow the pages linked on 
 - <a href="https://www.yokogawa.com/" target="_blank">Yokogawa</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tokyo,  Japan -- Remote] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Feb 2022 - present`\
 **DevOps Engineering Intern**: Researching and creating digital IoT model using Azure digital twins. 
 
--  <a href="https://about.google/" target="_blank">Google India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bangalore, India -- Remote]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`May 2022 - Aug 2022`\
+-  <a href="https://about.google/" target="_blank">Google India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bangalore, India -- Remote]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`May 2021 - Aug 2021`\
 **Software Engineering STEP Intern**: Part of the Google Ads team — Next Billion Users (NBU). Built the backend pipeline for a feature on Ads Storefront pages. Worked on extraction and anonymization for data to be used in privacy-secure manner.
 
 ---
 ## Projects
-- <a href="https://www.covedindia.org/" target="_blank">CovEd India</a>\
+- <a href="https://www.covedindia.org/" target="_blank">CovEd India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2020`\
 Co-launched a web-based initiative which seeked to provide academic support and increase access to educational resources for low-resource K-12 students during the COVID-19 school closures. We **connected 800+ K-12 students with undergraduate mentors across India in a span of 3 months**, and we also have a resources page containing a compilation of several free online learning resources. Partnered with Khan Academy's schoolhouse.world.
 
--  <a href="https://devpost.com/software/kokoro" target="_blank">Kokoro Smart Coin -- Chia Hackathon Project</a>\
+-  <a href="https://devpost.com/software/kokoro" target="_blank">Kokoro Smart Coin -- Chia Hackathon Project</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2021`\
 Leveraging chialisp smart contract technology, based on chia blockchain
 Kokoro embeds intentions into each individual coin creating a more decentralized, secure model. Initial phase. Hackathon Finalist. 
 
@@ -54,7 +54,7 @@ Responsible for conducting weekly help & doubt sessions and assisting students w
 Responsible for re-designing and maintaining the institute’s current Board of Sports
 Activities website with an average visitor count of 2000+ per month on Django framework as a fullstack developer.
 
-- **Athletics Captain**, Himadri House &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `2020-22`\
+- **Athletics Captain**, Himadri House &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `2020-22`\
 Responsible for handling sports and athletics events/initiatives of Himadri house.
 
 ---
