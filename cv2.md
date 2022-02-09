@@ -21,6 +21,7 @@ I highly suggest you to look around this website and follow the pages linked on 
 - <a href="https://home.iitd.ac.in/" target="_blank">Indian Institute of Technology Delhi</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2019 - 2024`\
 **Computer Science & Engineering**, Bachelors and Masters in Technology
 
+---
 
 ## Experience
 
@@ -30,7 +31,7 @@ I highly suggest you to look around this website and follow the pages linked on 
 -  <a href="https://about.google/" target="_blank">Google India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bangalore, India -- Remote]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`May 2022 - Aug 2022`\
 **Software Engineering STEP Intern**: Part of the Google Ads team — Next Billion Users (NBU). Built the backend pipeline for a feature on Ads Storefront pages. Worked on extraction and anonymization for data to be used in privacy-secure manner.
 
-
+---
 
 
 `2013-2023`
