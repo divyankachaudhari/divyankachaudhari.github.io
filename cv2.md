@@ -54,16 +54,17 @@ Responsible for conducting weekly help & doubt sessions and assisting students w
 Responsible for re-designing and maintaining the institute’s current Board of Sports
 Activities website with an average visitor count of 2000+ per month on Django framework as a fullstack developer.
 
-- **Athletics Captain**, Himadri House &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2020-22`\
+- **Athletics Captain**, Himadri House &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `2020-22`\
 Responsible for handling sports and athletics events/initiatives of Himadri house.
 
 ---
 ## Coursework done
 
-<table>
-  <tr>
-  <td width="(100/2)%"></td>
-  </tr>
+<table style="table-layout: fixed; width:100%;" >
+<thead>
+        <th>Computer Science</th>
+        <th>Others</th>
+    </thead>
 <tr>
 <td>
 
