@@ -61,14 +61,13 @@ Responsible for handling sports and athletics events/initiatives of Himadri hous
 ## Coursework done
 
 <table>
-<tr>
-<!-- <th> Good </th>
-<th> Bad </th> -->
-</tr>
+  <tr>
+  <td width="(100/2)%"></td>
+  </tr>
 <tr>
 <td>
 
-**COL106**: Data Structures & Algorithms<br> 
+COL106: Data Structures & Algorithms<br> 
 COL202: Discrete Math for CS<br> 
 COL215: Digital Logic & System Design<br> 
 COP290: Design Practices in CS<br> 
@@ -101,7 +100,7 @@ MSV802: Selected topics in Finance<br>
 MSV816: Contemporary issues in Management<br> 
 SPL810A: Advanced Topics in Policy Studies<sup>1</sup><br> 
 
-<sub> *Courses mentioned here are only those from 2<sup>nd</sup> year onwards.</sub>
+<sub> *Courses mentioned here are only those from 2<sup>nd</sup> year onwards.</sub><br> 
 <sub> <sup>1</sup>Will be completed until Summer 2022.</sub>
 
 
