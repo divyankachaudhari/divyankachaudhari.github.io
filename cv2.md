@@ -103,7 +103,7 @@ MSV802: Selected topics in Finance<br>
 MSV816: Contemporary issues in Management<br> 
 SPL810A: Advanced Topics in Policy Studies<sup>1</sup><br> 
 
-
+<br>
 <sub> <sup>1</sup>Will be completed until Summer 2022.</sub>
 
 
