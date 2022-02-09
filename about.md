@@ -24,7 +24,7 @@ Some cool things: <br>
 - <a href="https://xkcd.com/">xkcd</a>, a webcomic of romance, sarcasm, math, and language.<br>
 - <a href="https://ncase.me/trust/">The evolution of trust game</a> based on game theory.<br>
 - <a href="https://www.reddit.com/r/f04cb41f154db2f05a4a/">This weird ciphered subreddit</a>.<br>
-- ASAP science's <a href="https://youtu.be/rz4Dd1I_fX0">periodic table song</a>which I remember by heart.<br>
+- ASAP science's <a href="https://youtu.be/rz4Dd1I_fX0">periodic table song</a> which I remember by heart.<br>
 - Me, I'm cool.
 </p>
 
