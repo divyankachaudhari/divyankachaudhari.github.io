@@ -16,7 +16,7 @@ I want to work towards creating accessible and high quality educational resource
 
 Talking beyond academics, I play sports and am trying to get into music -- learning to play the violin. I've skated at national level before and have participated in the inter-IIT at college level. I like reading a lot, especially non-fiction now-a-days. I always keep buying new books to read them off to buy new ones! Now that I own a Kindle, it's even easier. I have been trying to improve my writing skills by carefully looking at what I write. 
 
-My [resume](https://divyankachaudhari.github.io/contact/) or [LinkedIn](https://www.linkedin.com/in/divyanka-chaudhari/) may help with my work experience, also this is my [GitHub](https://github.com/divyankachaudhari)/[Gitlab](https://gitlab.com/divyanka.chaudhari25).
+My [resume](https://divyankachaudhari.github.io/resume/) or [LinkedIn](https://www.linkedin.com/in/divyanka-chaudhari/) may help with my work experience, also this is my [GitHub](https://github.com/divyankachaudhari)/[Gitlab](https://gitlab.com/divyanka.chaudhari25).
 
 --------
 <p class="message">
