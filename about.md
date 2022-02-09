@@ -20,7 +20,7 @@ My [LinkedIn](https://www.linkedin.com/in/divyanka-chaudhari/) may help with my 
 
 --------
 <p class="message">
-Some cool things: <br>
+Some random cool things: <br>
 - <a href="https://xkcd.com/">xkcd</a>, a webcomic of romance, sarcasm, math, and language.<br>
 - <a href="https://ncase.me/trust/">The evolution of trust game</a> based on game theory.<br>
 - <a href="https://www.reddit.com/r/f04cb41f154db2f05a4a/">This weird ciphered subreddit</a>.<br>
