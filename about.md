@@ -28,7 +28,7 @@ Some cool things:
 - ASAP science's [periodic table song](https://youtu.be/rz4Dd1I_fX0) which I remember by heart.
 - Me, I'm cool.
 
-<sub>Website template is [Hyde](https://github.com/poole/hyde).</sub>
+
 <!-- #<embed src="https://divyankachaudhar.github.io/MTL106%20Minor.pdf" width="950px" height="700px" /> -->
 
 <!-- <embed src="https://imgs.xkcd.com/comics/rtl.png" /> -->
@@ -105,3 +105,5 @@ rollOverOutlineColor : "#000000"
 }
 });
 </script>
+
+<sub>Website template is [Hyde](https://github.com/poole/hyde).</sub>
