@@ -18,12 +18,12 @@ I highly suggest you to look around this website and follow the pages linked on 
 
 ## Education
 
-- `2019-2024` Computer Science and Engineering, **IIT Delhi** -- *Bachelors and Masters in Technology*
+- `2019-2024`\ Computer Science and Engineering, **IIT Delhi** -- *Bachelors and Masters in Technology*
 
 
 ## Experience
 
-- `Feb 2022-present` DevOps Engineering Intern, <a href="https://www.yokogawa.com/" target="_blank">Yokogawa</a> [Tokyo, Japan -- Remote]\
+- `Feb 2022-present`\ DevOps Engineering Intern, <a href="https://www.yokogawa.com/" target="_blank">Yokogawa</a> [Tokyo, Japan -- Remote]\
 hey
 
 
