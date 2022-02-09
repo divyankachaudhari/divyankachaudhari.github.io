@@ -6,9 +6,7 @@ profile:
   image: images/p1.jpg
 ---
 
-<p class="message">
-  
-</p>
+
 
 Hi, I'm Divyanka Chaudhari and welcome to my personal website. I am a junior at IIT Delhi pursuing Computer Science and Engineering. [Contact me here](https://divyankachaudhari.github.io/contact/).
 
@@ -21,12 +19,15 @@ Talking beyond academics, I play sports and am trying to get into music -- learn
 My [LinkedIn](https://www.linkedin.com/in/divyanka-chaudhari/) may help with my work experience, also this is my [GitHub](https://github.com/divyankachaudhari)/[Gitlab](https://gitlab.com/divyanka.chaudhari25).
 
 --------
+<p class="message">
 Some cool things:
 - [xkcd](https://xkcd.com/), a webcomic of romance, sarcasm, math, and language.
 - [The evolution of trust game](https://ncase.me/trust/) based on game theory.
 - [This weird ciphered subreddit](https://www.reddit.com/r/f04cb41f154db2f05a4a/).
 - ASAP science's [periodic table song](https://youtu.be/rz4Dd1I_fX0) which I remember by heart.
 - Me, I'm cool.
+</p>
+
 
 
 <!-- #<embed src="https://divyankachaudhar.github.io/MTL106%20Minor.pdf" width="950px" height="700px" /> -->
