@@ -117,7 +117,7 @@ SPL810A: Advanced Topics in Policy Studies<sup>1</sup><br>
 ## Extracurriculars
 
 <!-- - Activities -->
-* Part of winning athletics contingent at the prestigious **Inter-IIT Sports Meet**, IIT Kharagpur.
+* Part of winning athletics contingent at the prestigious **Inter-IIT Sports Meet** 2019, IIT Kharagpur.
 * One of 16 selected vocalists of **Cadence, Western music society**, Music club at IIT Delhi. 
 <!--  Events -->
 <!-- * Attended **Programming Languages Mentoring Workshop** at SPLASH 2020.  -->
