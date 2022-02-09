@@ -85,6 +85,8 @@ COL726: Numerical Algorithms<br>
 COL774: Machine Learning<br> 
 COL780: Computer Vision<br> 
 
+<sub> *Only courses from 2<sup>nd</sup> year onwards.</sub><br> 
+
 </td>
 <td>
 
@@ -101,7 +103,7 @@ MSV802: Selected topics in Finance<br>
 MSV816: Contemporary issues in Management<br> 
 SPL810A: Advanced Topics in Policy Studies<sup>1</sup><br> 
 
-<sub> *Courses mentioned here are only those from 2<sup>nd</sup> year onwards.</sub><br> 
+
 <sub> <sup>1</sup>Will be completed until Summer 2022.</sub>
 
 
