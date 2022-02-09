@@ -33,7 +33,7 @@ I highly suggest you to look around this website and follow the pages linked on 
 
 ---
 ## Projects
-- <a href="https://www.covedindia.org/" target="_blank">CovEd India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2020`\
+- <a href="https://www.covedindia.org/" target="_blank">CovEd India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2020`\
 Co-launched a web-based initiative which seeked to provide academic support and increase access to educational resources for low-resource K-12 students during the COVID-19 school closures. We **connected 800+ K-12 students with undergraduate mentors across India in a span of 3 months**, and we also have a resources page containing a compilation of several free online learning resources. Partnered with Khan Academy's schoolhouse.world.
 
 -  <a href="https://devpost.com/software/kokoro" target="_blank">Kokoro Smart Coin -- Chia Hackathon Project</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`2021`\
@@ -85,7 +85,6 @@ COL726: Numerical Algorithms<br>
 COL774: Machine Learning<br> 
 COL780: Computer Vision<br> 
 
-<sub> *Only courses from 2<sup>nd</sup> year onwards.</sub><br> 
 
 </td>
 <td>
@@ -104,14 +103,15 @@ MSV816: Contemporary issues in Management<br>
 SPL810A: Advanced Topics in Policy Studies<sup>1</sup><br> 
 
 <br>
-<sub> <sup>1</sup>Will be completed until Summer 2022.</sub>
+
 
 
 
 </td>
 </tr>
 </table>
-
+<sub> *Only courses from 2<sup>nd</sup> year onwards.</sub><br> 
+<sub> <sup>1</sup>Will be completed until Summer 2022.</sub>
 
 ---
 
