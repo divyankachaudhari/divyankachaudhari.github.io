@@ -117,9 +117,9 @@ SPL810A: Advanced Topics in Policy Studies<sup>1</sup><br>
 ## Extracurriculars
 
 - Activities
-* Part of winning athletics contingent at the prestigious Inter-IIT Sports Meet, IIT Kharagpur.
-* One of 16 selected vocalists of Cadence, Western music society, Music club at IIT Delhi. 
+    * Part of winning athletics contingent at the prestigious Inter-IIT Sports Meet, IIT Kharagpur.
+    * One of 16 selected vocalists of Cadence, Western music society, Music club at IIT Delhi. 
 - Events
-* Attended Programming Languages Mentoring Workshop at SPLASh 2020. Awarded complimentary registration to ACM’s OOPSLA and ECOOP virtual conferences.
-* Selected alongside 21 students as a delegate at World Sustainable Development Summit 2020, New Delhi. Summit held as part of the EU-funded Strategic Partnership for Implementation of the Paris Agreement.
-* Space Camp, KSC Florida, 2017: Externally fully funded 3-day camp included Astronaut training experience (ATX), training by instructors on various aspects of a space organization’s working and an opportunity to interact with former NASA Astronaut.
+    * Attended Programming Languages Mentoring Workshop at SPLASh 2020. Awarded complimentary registration to ACM’s OOPSLA and ECOOP virtual conferences.
+    * Selected alongside 21 students as a delegate at World Sustainable Development Summit 2020, New Delhi. Summit held as part of the EU-funded Strategic Partnership for Implementation of the Paris Agreement.
+    * Space Camp, KSC Florida, 2017: Externally fully funded 3-day camp included Astronaut training experience (ATX), training by instructors on various aspects of a space organization’s working and an opportunity to interact with former NASA Astronaut.
