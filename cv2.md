@@ -119,7 +119,7 @@ SPL810A: Advanced Topics in Policy Studies<sup>1</sup><br>
 <!-- - Activities -->
 * Part of winning athletics contingent at the prestigious **Inter-IIT Sports Meet**, IIT Kharagpur.
 * One of 16 selected vocalists of **Cadence, Western music society**, Music club at IIT Delhi. 
-<!-- - Events
-    * Attended **Programming Languages Mentoring Workshop** at SPLASH 2020. 
-    * Selected alongside 21 students as a delegate at **World Sustainable Development Summit** 2020, New Delhi.
-    * Attended externally fully funded 3-day camp at Kennedy Space Center, Florida, 2017. -->
+<!--  Events -->
+<!-- * Attended **Programming Languages Mentoring Workshop** at SPLASH 2020.  -->
+<!-- * Selected alongside 21 students as a delegate at **World Sustainable Development Summit** 2020, New Delhi. -->
+<!-- * Attended externally fully funded 3-day camp at Kennedy Space Center, Florida, 2017. -->
