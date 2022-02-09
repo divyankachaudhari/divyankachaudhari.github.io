@@ -23,9 +23,9 @@ I highly suggest you to look around this website and follow the pages linked on 
 
 ## Experience
 
-- `Feb 2022-present` DevOps Engineering Intern, **TingTong** [Tokyo, Japan -- Remote]
+- `Feb 2022-present` DevOps Engineering Intern, [**Yokogawa**](https://www.yokogawa.com/) [Tokyo, Japan -- Remote]
 
-Fucking everything up
+
 
 
 `2013-2023`
