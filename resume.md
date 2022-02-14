@@ -26,7 +26,7 @@ I highly suggest you to look around this website and follow the pages linked on 
 ## Experience
 
 - <a href="https://www.yokogawa.com/" target="_blank">Yokogawa</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tokyo,  Japan -- Remote] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Feb 2022 - present`\
-**DevOps Engineering Intern**: Researching and creating digital IoT model using Azure digital twins. 
+**DevOps Engineering Intern**: (Part-time) Researching and creating digital IoT model using Azure digital twins. 
 
 -  <a href="https://about.google/" target="_blank">Google India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bangalore, India -- Remote]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`May 2021 - Aug 2021`\
 **Software Engineering STEP Intern**: Part of the Google Ads team — Next Billion Users (NBU). Built the backend pipeline for a feature on Ads Storefront pages. Worked on extraction and anonymization for data to be used in privacy-secure manner.
