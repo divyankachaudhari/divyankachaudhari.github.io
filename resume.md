@@ -29,7 +29,7 @@ I highly suggest you to look around this website and follow the pages linked on 
 **DevOps Engineering Intern**: (Part-time) Researching and creating digital IoT model using Azure digital twins. 
 
 -  <a href="https://about.google/" target="_blank">Google India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bangalore, India -- Remote]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`May 2021 - Aug 2021`\
-**Software Engineering STEP Intern**: Part of the Google Ads team — Next Billion Users (NBU). Built the backend pipeline for a feature on Ads Storefront pages. Worked on extraction and anonymization for data to be used in privacy-secure manner.
+**Software Engineering STEP Intern**: (Full-time) Part of the Google Ads team — Next Billion Users (NBU). Built the backend pipeline for a feature on Ads Storefront pages. Worked on extraction and anonymization for data to be used in privacy-secure manner.
 
 ---
 ## Projects
