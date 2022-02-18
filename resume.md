@@ -10,6 +10,7 @@ I highly suggest you to look around this website and follow the pages linked on 
   <a href="https://divyankachaudhari.github.io/about/"><i class="fas fa-home"></i> divyankachaudhari.github.io</a> - 
   <!-- <a href="http://www.helsinki.fi/geodynamics"><i class="fas fa-users"></i> www.helsinki.fi/geodynamics (group)</a><br/> -->
   <a href="https://github.com/divyankachaudhari"><i class="fab fa-github"></i> @divyankachaudhari</a>  
+  <a href="https:divyankachaudhari.github.io/cv-minimal"> resume PDF</a>  
   <!-- <a href="https://orcid.org/0000-0002-3820-6886"><i class="ai ai-orcid"></i> 0000-0002-3820-6886</a> - 
   <a href="https://www.researchgate.net/profile/David_Whipp"><i class="ai ai-researchgate"></i> David_Whipp</a> -  -->
   <!-- <a href="https://twitter.com/divyankacx"><i class="fab fa-twitter"></i> @dave_whipp</a> -->
