@@ -10,7 +10,7 @@ I highly suggest you to look around this website and follow the pages linked on 
   <a href="https://divyankachaudhari.github.io/about/"><i class="fas fa-home"></i> divyankachaudhari.github.io</a> - 
   <!-- <a href="http://www.helsinki.fi/geodynamics"><i class="fas fa-users"></i> www.helsinki.fi/geodynamics (group)</a><br/> -->
   <a href="https://github.com/divyankachaudhari"><i class="fab fa-github"></i> @divyankachaudhari</a>  - 
-  <a href="https://divyankachaudhari.github.io/cv-minimal.pdf"> resume PDF</a>  
+  <a href="https://divyankachaudhari.github.io/divyanka-resume-minimal.pdf"> resume PDF</a>  
   <!-- <a href="https://orcid.org/0000-0002-3820-6886"><i class="ai ai-orcid"></i> 0000-0002-3820-6886</a> - 
   <a href="https://www.researchgate.net/profile/David_Whipp"><i class="ai ai-researchgate"></i> David_Whipp</a> -  -->
   <!-- <a href="https://twitter.com/divyankacx"><i class="fab fa-twitter"></i> @dave_whipp</a> -->
@@ -25,6 +25,9 @@ I highly suggest you to look around this website and follow the pages linked on 
 ---
 
 ## Experience
+
+-  <a href="https://about.google/" target="_blank">Google India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bangalore, India]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nbsp;&nbsp;&nbsp;&nbsp;`May 2022 - July 2022`\
+**Software Engineering Intern**: (Full-time) Part of the Google Cloud team — Working on the Google Clouds Apps Script team to help facilitate the Rhino to V8 runtime conversion.
 
 - <a href="https://www.yokogawa.com/" target="_blank">Yokogawa</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tokyo,  Japan -- Remote] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Feb 2022 - present`\
 **DevOps Engineering Intern**: (Part-time) Researching and creating digital IoT model using Azure digital twins. 
@@ -78,10 +81,10 @@ COL333: Artifical Intelligence<br>
 COL334: Computer Networks<br> 
 COL351: Algorithm Design<br> 
 COL226: Programming Languages<br> 
-COL331: Operating Systems<sup>1</sup><br> 
-COL352: Theory of Computation<sup>1</sup><br> 
-COL380: Parallel & Distributed Programming<sup>1</sup><br> 
-COL362: Intro to DBMS<sup>1</sup><br> 
+COL331: Operating Systems<br> 
+COL352: Theory of Computation<br> 
+COL380: Parallel & Distributed Programming<br> 
+COL362: Intro to DBMS<br> 
 COL726: Numerical Algorithms<br> 
 COL774: Machine Learning<br> 
 COL780: Computer Vision<br> 
@@ -111,7 +114,7 @@ SPL810A: Advanced Topics in Policy Studies<sup>1</sup><br>
 </td>
 </tr>
 </table>
-<sub> <sup>1</sup>Will be completed until Summer 2022. Only courses from 2<sup>nd</sup> year onwards. </sub><br> 
+<br> 
 
 
 ---
