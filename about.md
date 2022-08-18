@@ -10,6 +10,7 @@ profile:
 
 Hi, I'm Divyanka Chaudhari and welcome to my personal website. I am a junior at IIT Delhi pursuing Computer Science and Engineering. [Contact me here](https://divyankachaudhari.github.io/contact/).
 
+image somewhere
 <img src="p1.jpg"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
