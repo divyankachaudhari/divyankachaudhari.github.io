@@ -11,10 +11,10 @@ profile:
 Hi, I'm Divyanka Chaudhari and welcome to my personal website. I am a junior at IIT Delhi pursuing Computer Science and Engineering. [Contact me here](https://divyankachaudhari.github.io/contact/).
 
 <!-- image somewhere4
-![Drag Racing](divyanka.png)
-<img src="divyanka.png"
+![Drag Racing](divyanka.png) -->
+<img src="https://divyankachaudhari.github.io/divyanka.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" /> -->
+     style="float: left; margin-right: 10px;" />
 <img align="left" width="100" height="100" src="https://divyankachaudhari.github.io/divyanka.png">
 
 
