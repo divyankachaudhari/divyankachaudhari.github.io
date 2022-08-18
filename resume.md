@@ -10,7 +10,7 @@ I highly suggest you to look around this website and follow the pages linked on 
   <a href="https://divyankachaudhari.github.io/about/"><i class="fas fa-home"></i> divyankachaudhari.github.io</a> - 
   <!-- <a href="http://www.helsinki.fi/geodynamics"><i class="fas fa-users"></i> www.helsinki.fi/geodynamics (group)</a><br/> -->
   <a href="https://github.com/divyankachaudhari"><i class="fab fa-github"></i> @divyankachaudhari</a>  - 
-  <a href="https://divyankachaudhari.github.io/divyanka-resume-minimal.pdf"> resume PDF</a>  
+  <a href="https://divyankachaudhari.github.io/Divyanka-Resume.pdf"> resume PDF</a>  
   <!-- <a href="https://orcid.org/0000-0002-3820-6886"><i class="ai ai-orcid"></i> 0000-0002-3820-6886</a> - 
   <a href="https://www.researchgate.net/profile/David_Whipp"><i class="ai ai-researchgate"></i> David_Whipp</a> -  -->
   <!-- <a href="https://twitter.com/divyankacx"><i class="fab fa-twitter"></i> @dave_whipp</a> -->
@@ -26,11 +26,11 @@ I highly suggest you to look around this website and follow the pages linked on 
 
 ## Experience
 
--  <a href="https://about.google/" target="_blank">Google India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bangalore, India]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`May 2022 - July 2022`\
-**Software Engineering Intern**: (Full-time) Part of the Google Cloud team — Working on the Google Clouds Apps Script team to help facilitate the Rhino to V8 runtime conversion.
+-  <a href="https://about.google/" target="_blank">Google India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bangalore, India]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`May 2022 - July 2022`\
+**Software Engineering Intern**: (Full-time) Worked in the Google Cloud Editors Team (Google Docs, Sheets) under AppsScript to facilitate Javascript’s Rhino to V8 runtime engine transfer in a step-by-step manner. Wrote a filtering script on the backend to bring down user script’s execution time by amortized 20%.
 
 - <a href="https://www.yokogawa.com/" target="_blank">Yokogawa</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tokyo,  Japan -- Remote] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Feb 2022 - present`\
-**DevOps Engineering Intern**: (Part-time) Researching and creating digital IoT model using Azure digital twins. 
+**DevOps Engineering Intern**: (Part-time) Contract based worked via Willings, Inc. Worked on techstack transfer using React and Node JS.
 
 -  <a href="https://about.google/" target="_blank">Google India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bangalore, India -- Remote]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`May 2021 - Aug 2021`\
 **Software Engineering STEP Intern**: (Full-time) Part of the Google Ads team — Next Billion Users (NBU). Built the backend pipeline for a feature on Ads Storefront pages. Worked on extraction and anonymization for data to be used in privacy-secure manner.
