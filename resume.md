@@ -4,7 +4,7 @@ title: Divyanka's CV
 ---
 # Divyanka Chaudhari
 
-I highly suggest you to look around this website and follow the pages linked on the sidebar to know me better. I’ll be returning as a SWE intern at Google in Summer’22.
+I highly suggest you to look around this website and follow the pages linked on the sidebar to know me better.
 
 <div id="webaddress">
   <a href="https://divyankachaudhari.github.io/about/"><i class="fas fa-home"></i> divyankachaudhari.github.io</a> - 
