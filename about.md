@@ -7,7 +7,7 @@ profile:
 ---
 
 
-
+<img align="right" width="200" height="200" src="https://divyankachaudhari.github.io/divyanka.png">
 Hi, I'm Divyanka Chaudhari and welcome to my personal website. I am a junior at IIT Delhi pursuing Computer Science and Engineering. [Contact me here](https://divyankachaudhari.github.io/contact/).
 
 <!-- image somewhere4
@@ -15,7 +15,7 @@ Hi, I'm Divyanka Chaudhari and welcome to my personal website. I am a junior at 
 <!-- <img src="https://divyankachaudhari.github.io/divyanka.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" /> -->
-<img align="right" width="200" height="200" src="https://divyankachaudhari.github.io/divyanka.png">
+
 
 
 I am interested in computer science and software engineering. I'm trying to build up this website by adding my side-projects to it. New things excite me, and I'm always on some personal project. The field of networks is currently intriguing to me, and I'm trying to learn more about it and its research area. Thanks to my friend/s who keep throwing resources and information at my face (in a good way). On the side, I want to learn contributing to open source. 
