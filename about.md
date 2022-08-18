@@ -18,7 +18,7 @@ Hi, I'm Divyanka Chaudhari, a senior (4th year student) at IIT Delhi pursuing Co
 
 
 
-I am interested in computer science and software engineering. I'm trying to build up this website by adding my side-projects to it. My wide array of personal projects keep me busy. The field of operating systems is currently intriguing to me, and I'm trying to learn more about it and its research area. Thanks to my friend/s who keep throwing resources and information at my face (in a good way). On the side, I want to learn contributing to open source. 
+I am interested in computer science and software engineering. I'm trying to build up this website by adding my side-projects to it. My wide array of personal projects keep me busy. The field of networks is currently intriguing to me, and I'm trying to learn more about it and its research area. Thanks to my friend/s who keep throwing resources and information at my face (in a good way). On the side, I want to learn contributing to open source. 
 
 I want to work towards creating accessible and high quality educational resources in some way. I've lived and learned over the internet, and want to give back. Last (to last?) summer, I also launched [CovEd India](https://www.covedindia.org/) with my friends on the onset of pandemic. 
 
