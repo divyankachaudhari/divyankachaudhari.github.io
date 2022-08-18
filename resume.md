@@ -26,10 +26,10 @@ I highly suggest you to look around this website and follow the pages linked on 
 
 ## Experience
 
--  <a href="https://about.google/" target="_blank">Google India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bangalore, India]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`May 2022 - July 2022`\
+-  <a href="https://about.google/" target="_blank">Google India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bangalore, India]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`May 2022 - Jul 2022`\
 **Software Engineering Intern**: (Full-time) Worked in the Google Cloud Editors Team (Google Docs, Sheets) under AppsScript to facilitate Javascript’s Rhino to V8 runtime engine transfer in a step-by-step manner. Wrote a filtering script on the backend to bring down user script’s execution time by amortized 20%.
 
-- <a href="https://www.yokogawa.com/" target="_blank">Yokogawa</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tokyo,  Japan -- Remote] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Feb 2022 - present`\
+- <a href="https://www.yokogawa.com/" target="_blank">Yokogawa</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tokyo,  Japan -- Remote] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Feb 2022 - Apr 2022`\
 **DevOps Engineering Intern**: (Part-time) Contract based worked via Willings, Inc. Worked on techstack transfer using React and Node JS.
 
 -  <a href="https://about.google/" target="_blank">Google India</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bangalore, India -- Remote]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`May 2021 - Aug 2021`\
