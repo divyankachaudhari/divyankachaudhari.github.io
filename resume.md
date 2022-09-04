@@ -10,7 +10,7 @@ I highly suggest you to look around this website and follow the pages linked on 
   <a href="https://divyankachaudhari.github.io/about/"><i class="fas fa-home"></i> divyankachaudhari.github.io</a> - 
   <!-- <a href="http://www.helsinki.fi/geodynamics"><i class="fas fa-users"></i> www.helsinki.fi/geodynamics (group)</a><br/> -->
   <a href="https://github.com/divyankachaudhari"><i class="fab fa-github"></i> @divyankachaudhari</a>  - 
-  <a href="https://divyankachaudhari.github.io/Divyanka-Resume.pdf"> resume PDF</a>  
+  <a href="https://divyankachaudhari.github.io/divyanka-sep-resume.pdf"> resume PDF</a>  
   <!-- <a href="https://orcid.org/0000-0002-3820-6886"><i class="ai ai-orcid"></i> 0000-0002-3820-6886</a> - 
   <a href="https://www.researchgate.net/profile/David_Whipp"><i class="ai ai-researchgate"></i> David_Whipp</a> -  -->
   <!-- <a href="https://twitter.com/divyankacx"><i class="fab fa-twitter"></i> @dave_whipp</a> -->
@@ -88,6 +88,10 @@ COL362: Intro to DBMS<br>
 COL726: Numerical Algorithms<br> 
 COL774: Machine Learning<br> 
 COL780: Computer Vision<br> 
+COP701: Software Systems Lab <br>
+COL703: Logic in CS <br>
+COL718: Arch of High Perf Computers <br>
+SIL801: Ethics in Web Computing <br>
 
 
 </td>
@@ -104,7 +108,9 @@ SBL100: Intro to Biology<br>
 HUL307: Fantasy Literature<sup>1</sup><br> 
 MSV802: Selected topics in Finance<br> 
 MSV816: Contemporary issues in Management<br> 
-SPL810A: Advanced Topics in Policy Studies<sup>1</sup><br> 
+SPL810A: Advanced Topics in Policy Studies<br> 
+
+
 
 <br>
 
