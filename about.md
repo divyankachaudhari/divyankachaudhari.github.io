@@ -9,7 +9,6 @@ profile:
 
 <img align="right" width="200" height="200" src="https://divyankachaudhari.github.io/divyanka.png">
 Hi, I'm Divyanka Chaudhari, a senior (4th year student) at IIT Delhi pursuing Computer Science and Engineering. Feel free to [send me a message](https://divyankachaudhari.github.io/contact/) or set up a meeting on [my Calendly](https://calendly.com/divyankac/30min).
-lalalalal
 
 <!-- image somewhere4
 ![Drag Racing](divyanka.png) -->
