@@ -103,7 +103,7 @@ areas :
 		"showAsSelected": true
 	}
 	{
-		"id": "UK",
+		"id": "GB",
 		"showAsSelected": true
 	}
 ]
