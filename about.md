@@ -8,7 +8,7 @@ profile:
 
 
 <img align="right" width="200" height="200" src="https://divyankachaudhari.github.io/divyanka.png">
-Hi, I'm Divyanka Chaudhari, a senior (4th year student) at IIT Delhi pursuing Computer Science and Engineering. Feel free to [send me a message](https://divyankachaudhari.github.io/contact/) or set up a meeting on [my Calendly](https://calendly.com/divyankac/30min).
+Hi, I'm Divyanka Chaudhari, a senior at IIT Delhi pursuing Computer Science and Engineering. Feel free to [send me a message](https://divyankachaudhari.github.io/contact/). 
 
 <!-- image somewhere4
 ![Drag Racing](divyanka.png) -->
@@ -18,11 +18,11 @@ Hi, I'm Divyanka Chaudhari, a senior (4th year student) at IIT Delhi pursuing Co
 
 
 
-I am interested in computer science and software engineering. I'm trying to build up this website by adding my side-projects to it. My wide array of personal projects keep me busy. The field of programming languages is currently intriguing to me, and I'm trying to learn more about it and its research area. Thanks to my friend/s who keep throwing resources and information at my face (in a good way). On the side, I want to learn contributing to open source. 
+I am interested in computer science and software engineering. I'm trying to build up this website by adding my side-projects to it. My wide array of personal projects keep me busy. Thanks to my friend/s who keep throwing resources and information at my face (in a good way). On the side, I want to learn contributing to open source. 
 
 I want to work towards creating accessible and high quality educational resources in some way. I've lived and learned over the internet, and want to give back. Last (to last?) summer, I also launched [CovEd India](https://www.covedindia.org/) with my friends on the onset of pandemic. 
 
-Talking beyond academics, I play sports and am trying to get into music -- learning to play the violin. I've skated at national level before and have participated in the inter-IIT at college level. I like reading a lot, especially non-fiction now-a-days. I always keep buying new books to read them off to buy new ones! Now that I own a Kindle, it's even easier. I have been trying to improve my writing skills by critically reading everything I write. 
+Beyond academics, I play sports, am learning the violin, and enjoy reading, especially non-fiction. I’ve competed in skating at the national level and represented my college in inter-IIT competitions.
 
 My [LinkedIn](https://www.linkedin.com/in/divyanka-chaudhari/) may help with my work experience, also this is my [GitHub](https://github.com/divyankachaudhari)/[Gitlab](https://gitlab.com/divyanka.chaudhari25).
 
@@ -100,6 +100,10 @@ areas :
 	},
 	{
 		"id": "AE",
+		"showAsSelected": true
+	}
+	{
+		"id": "UK",
 		"showAsSelected": true
 	}
 ]
