@@ -102,10 +102,6 @@ areas :
 		"id": "AE",
 		"showAsSelected": true
 	}
-	{
-		"id": "GB",
-		"showAsSelected": true
-	}
 ]
 },
 areasSettings : {
