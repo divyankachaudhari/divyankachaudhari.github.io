@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Outreachy Blog \#1
+title: Outreachy Blog #1
 ---
 
 I've been wanting to contribute to open source for a while. But I just couldn't. Should I just randomly choose repositories to contribute to? Maybe I should contribute to projects I'm familiar with? Or perhaps, I should look for a match in my skills. While there's a way out of these questions, in reality I just couldn't carve out the time. 
