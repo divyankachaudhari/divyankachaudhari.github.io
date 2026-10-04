@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -11,13 +11,17 @@ title:            Divyanka
 tagline:          'Student'
 description:      'Hi, I am a Computer Science Undergraduate at <a href="https://www.cse.iitd.ernet.in/" target="_blank">IIT Delhi</a> and this is my home on the internet.'
 url:              https://divyankachaudhari.github.io
-baseurl:          /
+baseurl:          ""
 
 author:
   name:           'Divyanka Chaudhari'
   url:            https://divyankachaudhari.github.io
 
 paginate:         5
+
+# Visitor tracking: fill in ONE (see _includes/analytics.html)
+google_analytics: ""   # e.g. G-ABC123XYZ9
+goatcounter:      "divyanka"   # e.g. divyanka  (for divyanka.goatcounter.com)
 
 # Custom vars
 version:          0.1.0
@@ -32,4 +36,3 @@ linkedin:         https://www.linkedin.com/in/divyanka-chaudhari/
 plugins:
   - jekyll-paginate
   - jekyll-gist
-  - redcarpet

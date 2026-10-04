@@ -1,0 +1,18 @@
+{% comment %}
+  Visitor tracking. Set ONE of these in _config.yml; nothing loads if both are blank.
+  Only runs on the live site, so local `jekyll serve` visits aren't counted.
+{% endcomment %}
+{% if jekyll.environment == "production" %}
+  {% if site.google_analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+  {% elsif site.goatcounter %}
+  <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count"
+          async src="https://gc.zgo.at/count.js"></script>
+  {% endif %}
+{% endif %}
