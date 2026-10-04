@@ -7,7 +7,7 @@ profile:
 ---
 
 <img class="profile-photo" width="200" height="200" src="/divyanka.png" alt="Photo of Divyanka Chaudhari">
-Hi, I'm Divyanka Chaudhari. I'm a quantitative researcher at a hedge fund in London, where I've lived for the past two years. Before that, I studied Computer Science and Engineering at IIT Delhi. Feel free to [send me a message](/contact/).
+Hi, I'm Divyanka Chaudhari. I'm a quant at a hedge fund in London, where I've lived for the past two years. Before that, I studied Computer Science and Engineering at IIT Delhi. Feel free to [send me a message](/contact/).
 
 I like the internet. I learned most of what I know from it, and I'd like to make it a little better than I found it.
 
