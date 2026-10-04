@@ -176,3 +176,30 @@ embed {
   border: 0;
   border-radius: 6px;
 }
+
+/* Social icons */
+.social {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.social a {
+  display: inline-flex;
+  color: rgba(255, 255, 255, .7);
+  transition: color .15s, transform .15s;
+}
+.social a:hover,
+.social a:focus {
+  color: #fff;
+  transform: translateY(-2px);
+}
+.social svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: currentColor;
+}
+@media (max-width: 48em) {
+  .social {
+    justify-content: center;
+  }
+}
