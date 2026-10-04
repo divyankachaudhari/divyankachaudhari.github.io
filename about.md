@@ -15,8 +15,6 @@ I want to work towards creating accessible and high quality educational resource
 
 Beyond academics, I play sports, am learning the violin, and enjoy reading, especially non-fiction. I’ve competed in skating at the national level and represented my college in inter-IIT competitions.
 
-My [LinkedIn](https://www.linkedin.com/in/divyanka-chaudhari/) may help with my work experience, also this is my [GitHub](https://github.com/divyankachaudhari)/[Gitlab](https://gitlab.com/divyanka.chaudhari25).
-
 --------
 <p class="message">
 Some random cool things: <br>

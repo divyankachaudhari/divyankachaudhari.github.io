@@ -33,6 +33,8 @@ youtube:          https://www.youtube.com/channel/UCLzkZmJgOHQAHZqffDJ1e-g
 
 linkedin:         https://www.linkedin.com/in/divyanka-chaudhari/
 
+x:                https://x.com/chiaseedswhat
+
 plugins:
   - jekyll-paginate
   - jekyll-gist

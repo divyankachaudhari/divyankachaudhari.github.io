@@ -23,10 +23,9 @@
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
         {% endif %}
       {% endfor %}
-
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}" target="_blank" rel="noopener">GitHub</a>
-      <a class="sidebar-nav-item" href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
     </nav>
+
+    {% include social.html %}
 
     <p class="sidebar-footer">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
   </div>
