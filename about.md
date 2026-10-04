@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: "Divyanka Chaudhari is a quant at a hedge fund in London, previously Computer Science at IIT Delhi. Likes the internet, biking, bouldering, skating and pottery."
 profile:
   align: left
   image: images/p1.jpg

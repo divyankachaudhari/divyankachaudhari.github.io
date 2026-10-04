@@ -40,3 +40,4 @@ instagram:        https://www.instagram.com/divycx.jpeg/
 plugins:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-sitemap
