@@ -2,7 +2,7 @@
   Visitor tracking. Set ONE of these in _config.yml; nothing loads if both are blank.
   (GoatCounter skips localhost on its own.)
 {% endcomment %}
-  {% if site.google_analytics %}
+  {% if site.google_analytics and site.google_analytics != "" %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -10,7 +10,7 @@
     gtag('js', new Date());
     gtag('config', '{{ site.google_analytics }}');
   </script>
-  {% elsif site.goatcounter %}
+  {% elsif site.goatcounter and site.goatcounter != "" %}
   <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count"
           async src="https://gc.zgo.at/count.js"></script>
   {% endif %}
