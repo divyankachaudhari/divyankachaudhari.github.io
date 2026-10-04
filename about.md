@@ -7,13 +7,11 @@ profile:
 ---
 
 <img class="profile-photo" width="200" height="200" src="/divyanka.png" alt="Photo of Divyanka Chaudhari">
-Hi, I'm Divyanka Chaudhari, a senior at IIT Delhi pursuing Computer Science and Engineering. Feel free to [send me a message](/contact/). 
+Hi, I'm Divyanka Chaudhari. I'm a quantitative researcher at a hedge fund in London, where I've lived for the past two years. Before that, I studied Computer Science and Engineering at IIT Delhi. Feel free to [send me a message](/contact/).
 
-I am interested in computer science and software engineering. I'm trying to build up this website by adding my side-projects to it. My wide array of personal projects keep me busy. Thanks to my friend/s who keep throwing resources and information at my face (in a good way). On the side, I want to learn contributing to open source. 
+I like the internet. I learned most of what I know from it, and I'd like to make it a little better than I found it.
 
-I want to work towards creating accessible and high quality educational resources in some way. I've lived and learned over the internet, and want to give back. Last (to last?) summer, I also launched [CovEd India](https://www.covedindia.org/) with my friends on the onset of pandemic. 
-
-Beyond academics, I play sports, am learning the violin, and enjoy reading, especially non-fiction. I’ve competed in skating at the national level and represented my college in inter-IIT competitions.
+Outside work, my year runs on two settings: I hibernate through the London winter and come out properly in summer. When I'm out, I'm usually biking, bouldering or skating (I competed in skating at the national level, and represented IIT Delhi in athletics at inter-IIT). I've also just started pottery, so expect lopsided bowls. I take photos too, which end up on [Instagram](https://www.instagram.com/divycx.jpeg/).
 
 --------
 <p class="message">
