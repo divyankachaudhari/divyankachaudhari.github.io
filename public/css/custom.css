@@ -99,11 +99,6 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   color: #f6a5bf;
 }
-.sidebar-footer {
-  font-size: .75rem;
-  margin-bottom: 0;
-  color: rgba(255, 255, 255, .4);
-}
 
 /* Posts and pages */
 .post-title,
