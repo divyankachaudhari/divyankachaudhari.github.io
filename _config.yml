@@ -39,3 +39,4 @@ instagram:        https://www.instagram.com/divycx.jpeg/
 plugins:
   - jekyll-gist
   - jekyll-sitemap
+  - jekyll-redirect-from

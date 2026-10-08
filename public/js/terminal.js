@@ -149,7 +149,7 @@
     help: {
       desc: 'you are here',
       run: function () {
-        var list = ['about', 'ls', 'cd', 'cat', 'open', 'photos', 'contact', 'links', 'status', 'neofetch', 'date', 'history', 'clear', 'gui'];
+        var list = ['about', 'ls', 'cd', 'cat', 'open', 'photos', 'contact', 'links', 'snake', 'status', 'neofetch', 'date', 'history', 'clear', 'gui'];
         var rows = list.map(function (n) {
           return '<tr><td>' + cmd(n === 'ls' ? 'ls' : n === 'cd' ? 'cd writing' : n === 'cat' ? 'cat about.txt' : n === 'open' ? 'open 1' : n, n) +
             '</td><td class="dim">' + esc(COMMANDS[n].desc) + '</td></tr>';
@@ -269,6 +269,7 @@
       }
     },
     clear: { desc: 'clean slate', run: function () { out.innerHTML = ''; return ''; } },
+    snake: { desc: 'play a game', run: function () { startSnake(); return ''; } },
     gui: { desc: 'the normal website', run: function () { go(S.pages.about); return '<p class="dim">booting gui…</p>'; } },
     echo: { hidden: true, run: function (args) { return '<p>' + esc(args.join(' ')) + '</p>'; } },
     pwd: { hidden: true, run: function () { return '<p>/home/divyanka' + esc(cwd.replace('~', '')) + '</p>'; } },
@@ -292,11 +293,196 @@
     ssh: { hidden: true, run: function () { return '<p>ssh: connect to host: you\'re already here.</p>'; } },
     git: { hidden: true, run: function () { return '<p>' + ext(S.source, 'this site is on github') + '. PRs welcome.</p>'; } }
   };
-  var ALIASES = { '?': 'help', 'man': 'help', 'll': 'ls', 'dir': 'ls', 'instagram': 'photos', 'insta': 'photos', 'email': 'contact', 'socials': 'links', 'github': 'git' };
+  var ALIASES = { '?': 'help', 'man': 'help', 'll': 'ls', 'dir': 'ls', 'instagram': 'photos', 'insta': 'photos', 'email': 'contact', 'socials': 'links', 'github': 'git', 'game': 'snake', 'games': 'snake', 'play': 'snake' };
+
+  /* ---------- snake ---------- */
+
+  var game = null;
+  var BEST_KEY = 'divyanka.sh:snake-best';
+  var DIRS = {
+    ArrowUp: [0, -1], w: [0, -1], k: [0, -1],
+    ArrowDown: [0, 1], s: [0, 1], j: [0, 1],
+    ArrowLeft: [-1, 0], a: [-1, 0], h: [-1, 0],
+    ArrowRight: [1, 0], d: [1, 0], l: [1, 0]
+  };
+  var DEATHS = [
+    'the snake has gone into hibernation.',
+    'segfault (core dumped).',
+    'margin call.',
+    'it hit a wall. relatable.',
+    'process exited with code 1.'
+  ];
+
+  function getBest() { try { return Number(localStorage.getItem(BEST_KEY)) || 0; } catch (e) { return 0; } }
+  function setBest(n) { try { localStorage.setItem(BEST_KEY, String(n)); } catch (e) { /* private mode */ } }
+
+  function startSnake() {
+    stopGame(true);
+    var narrow = body.clientWidth < 560;
+    var W = narrow ? 14 : 24;
+    var H = narrow ? 14 : 14;
+    var block = print(
+      '<p class="game-bar"></p><pre class="game" aria-label="snake game"></pre><p class="game-help dim"></p>' +
+      (isTouch ? '<div class="dpad">' +
+        '<button type="button" data-dir="ArrowUp" aria-label="up">▲</button>' +
+        '<button type="button" data-dir="ArrowLeft" aria-label="left">◀</button>' +
+        '<button type="button" data-dir="ArrowDown" aria-label="down">▼</button>' +
+        '<button type="button" data-dir="ArrowRight" aria-label="right">▶</button></div>' : ''),
+      'game-block'
+    );
+    var y = Math.floor(H / 2);
+    game = {
+      W: W, H: H,
+      snake: [{ x: 4, y: y }, { x: 3, y: y }, { x: 2, y: y }],
+      dir: [1, 0], queue: [],
+      food: null, score: 0, best: getBest(),
+      speed: 130, timer: null, paused: false, over: false,
+      bar: block.querySelector('.game-bar'),
+      screen: block.querySelector('.game'),
+      help: block.querySelector('.game-help')
+    };
+    placeFood();
+    form.hidden = true;
+    input.blur();
+    game.help.innerHTML = isTouch
+      ? 'swipe or use the arrows · <a href="#" data-game="pause">pause</a> · <a href="#" data-game="quit">quit</a>'
+      : 'arrows / wasd / hjkl to move · space to pause · q to quit';
+    draw();
+    scrollDown();
+    game.timer = setTimeout(tick, 400);
+  }
+
+  function placeFood() {
+    var g = game, free = [];
+    for (var y = 0; y < g.H; y++) {
+      for (var x = 0; x < g.W; x++) {
+        if (!g.snake.some(function (p) { return p.x === x && p.y === y; })) free.push({ x: x, y: y });
+      }
+    }
+    g.food = free[Math.floor(Math.random() * free.length)];
+  }
+
+  function tick() {
+    var g = game;
+    if (!g || g.over) return;
+    if (g.paused) { g.timer = setTimeout(tick, g.speed); return; }
+
+    // take one queued turn per tick, ignoring direct reversals
+    while (g.queue.length) {
+      var d = g.queue.shift();
+      if (d[0] !== -g.dir[0] || d[1] !== -g.dir[1]) { g.dir = d; break; }
+    }
+    var head = { x: g.snake[0].x + g.dir[0], y: g.snake[0].y + g.dir[1] };
+    var ate = g.food && head.x === g.food.x && head.y === g.food.y;
+    var bodyToCheck = ate ? g.snake : g.snake.slice(0, -1);
+    var hitWall = head.x < 0 || head.y < 0 || head.x >= g.W || head.y >= g.H;
+    var hitSelf = bodyToCheck.some(function (p) { return p.x === head.x && p.y === head.y; });
+    if (hitWall || hitSelf) return gameOver();
+
+    g.snake.unshift(head);
+    if (ate) {
+      g.score++;
+      g.speed = Math.max(65, g.speed - 4);
+      if (g.snake.length >= g.W * g.H) return gameOver(true);
+      placeFood();
+    } else {
+      g.snake.pop();
+    }
+    draw();
+    g.timer = setTimeout(tick, g.speed);
+  }
+
+  function draw() {
+    var g = game;
+    var cells = [];
+    for (var y = 0; y < g.H; y++) { cells.push(new Array(g.W).fill(0)); }
+    g.snake.forEach(function (p, i) { cells[p.y][p.x] = i === 0 ? 2 : 1; });
+    if (g.food) cells[g.food.y][g.food.x] = 3;
+    var rows = ['<span class="frame">┌' + '──'.repeat(g.W) + '┐</span>'];
+    cells.forEach(function (row) {
+      rows.push('<span class="frame">│</span>' + row.map(function (c) {
+        return c === 2 ? '<span class="hd">██</span>' : c === 1 ? '<span class="sn">▓▓</span>' : c === 3 ? '<span class="fd">◆ </span>' : '<span class="em">· </span>';
+      }).join('') + '<span class="frame">│</span>');
+    });
+    rows.push('<span class="frame">└' + '──'.repeat(g.W) + '┘</span>');
+    g.screen.innerHTML = rows.join('\n');
+    g.bar.innerHTML = '<span class="hl">snake</span>  <span class="dim">score</span> ' + g.score +
+      '  <span class="dim">best</span> ' + Math.max(g.best, g.score) + (g.paused ? '  <span class="warm">[paused]</span>' : '');
+  }
+
+  function gameOver(won) {
+    var g = game;
+    g.over = true;
+    clearTimeout(g.timer);
+    draw();
+    var best = g.score > g.best;
+    if (best) setBest(g.score);
+    g.help.innerHTML = (won ? '<span class="hot">you filled the board. respect.</span>' : '<span class="err">' + esc(DEATHS[Math.floor(Math.random() * DEATHS.length)]) + '</span>') +
+      ' score ' + g.score + (best && g.score ? ' <span class="hot">· new best!</span>' : '') +
+      '<br><a href="#" data-game="restart">[r] play again</a> · <a href="#" data-game="quit">[q] quit</a>';
+    scrollDown();
+  }
+
+  function stopGame(silent) {
+    if (!game) return;
+    clearTimeout(game.timer);
+    var g = game;
+    game = null;
+    form.hidden = false;
+    if (!silent) print('<p class="dim">snake exited · score ' + g.score + ' · best ' + Math.max(g.best, g.score) + '</p>');
+    if (!isTouch) input.focus({ preventScroll: true });
+    scrollDown();
+  }
+
+  function steer(key) {
+    if (!game || game.over) return;
+    var d = DIRS[key];
+    if (d && game.queue.length < 3) game.queue.push(d);
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (!game || e.metaKey || e.ctrlKey || e.altKey) return;
+    var key = e.key.length === 1 ? e.key.toLowerCase() : e.key;
+    if (DIRS[key]) { e.preventDefault(); steer(key); }
+    else if (key === ' ' || key === 'p') { e.preventDefault(); if (!game.over) { game.paused = !game.paused; draw(); } }
+    else if (key === 'q' || key === 'Escape') { e.preventDefault(); stopGame(); }
+    else if ((key === 'r' || key === 'Enter') && game.over) { e.preventDefault(); startSnake(); }
+  });
+
+  document.addEventListener('click', function (e) {
+    var dir = e.target.closest('[data-dir]');
+    if (dir) { e.preventDefault(); steer(dir.getAttribute('data-dir')); return; }
+    var act = e.target.closest('[data-game]');
+    if (!act || !game) return;
+    e.preventDefault();
+    var a = act.getAttribute('data-game');
+    if (a === 'quit') stopGame();
+    else if (a === 'restart') startSnake();
+    else if (a === 'pause' && !game.over) { game.paused = !game.paused; draw(); }
+  });
+
+  var touchStart = null;
+  body.addEventListener('touchstart', function (e) {
+    if (!game) return;
+    touchStart = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+  }, { passive: true });
+  body.addEventListener('touchend', function (e) {
+    if (!game || !touchStart) return;
+    var dx = e.changedTouches[0].clientX - touchStart.x;
+    var dy = e.changedTouches[0].clientY - touchStart.y;
+    touchStart = null;
+    if (Math.max(Math.abs(dx), Math.abs(dy)) < 24) return;
+    steer(Math.abs(dx) > Math.abs(dy) ? (dx > 0 ? 'ArrowRight' : 'ArrowLeft') : (dy > 0 ? 'ArrowDown' : 'ArrowUp'));
+  }, { passive: true });
+
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden && game && !game.over) { game.paused = true; draw(); }
+  });
 
   /* ---------- run ---------- */
 
   function run(raw) {
+    stopGame(true);
     var line = String(raw).trim();
     echoPrompt(line);
     if (line) { history.push(line); }

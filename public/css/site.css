@@ -26,6 +26,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
 
 html { -webkit-text-size-adjust: 100%; }
 
@@ -369,3 +370,51 @@ th { background: var(--paper); font-family: var(--mono); font-size: .9em; }
 /* 404 */
 .notfound pre { background: var(--term); color: var(--term-ink); border: 0; }
 .notfound .err { color: var(--t-red); }
+
+/* snake */
+.game-bar { margin-bottom: .3em !important; }
+.term-body pre.game {
+  display: inline-block;
+  font-family: Menlo, "DejaVu Sans Mono", Consolas, var(--mono);
+  line-height: 1.12;
+  color: var(--term-dim);
+  user-select: none;
+  touch-action: none;
+}
+.game .frame { color: #4a4452; }
+.game .em { color: #2c2832; }
+.game .sn { color: var(--t-green); }
+.game .hd { color: #c6f0a8; }
+.game .fd { color: var(--t-pink); text-shadow: 0 0 8px rgba(242, 155, 184, .7); }
+.game-help { margin-top: .4em !important; }
+.term-body .err { color: var(--t-red); }
+.dpad {
+  display: grid;
+  grid-template-columns: repeat(3, 52px);
+  grid-template-rows: repeat(2, 44px);
+  gap: 6px;
+  margin-top: 10px;
+}
+.dpad button {
+  font: inherit;
+  color: var(--t-green);
+  background: rgba(166, 209, 137, .08);
+  border: 1px solid rgba(166, 209, 137, .3);
+  border-radius: 8px;
+  touch-action: manipulation;
+}
+.dpad button:active { background: var(--t-green); color: var(--term); }
+.dpad [data-dir="ArrowUp"] { grid-column: 2; grid-row: 1; }
+.dpad [data-dir="ArrowLeft"] { grid-column: 1; grid-row: 2; }
+.dpad [data-dir="ArrowDown"] { grid-column: 2; grid-row: 2; }
+.dpad [data-dir="ArrowRight"] { grid-column: 3; grid-row: 2; }
+@media (max-width: 640px) { .term-body pre.game { font-size: 11px; } }
+
+/* single about page */
+h2[id] { scroll-margin-top: 72px; }
+.links-list { list-style: none; padding: 0; font-family: var(--mono); font-size: .95rem; }
+.links-list li { display: flex; gap: 1em; padding: .25em 0; }
+.links-list li > .dim:first-child { width: 6.5em; flex: none; }
+.small { font-size: .8rem; margin-top: 2.5em; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

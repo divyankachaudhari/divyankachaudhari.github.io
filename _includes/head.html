@@ -5,6 +5,8 @@
   <title>
     {% if page.layout == "terminal" %}
       {{ site.title }} &middot; {{ site.tagline }}
+    {% elsif page.title == site.author.name %}
+      {{ site.author.name }} &middot; {{ site.tagline }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}

@@ -10,8 +10,8 @@
       <nav aria-label="Main">
         <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>~</a>
         <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>about</a>
-        <a href="{{ '/writing/' | relative_url }}"{% if page.url == '/writing/' or page.layout == 'post' %} aria-current="page"{% endif %}>writing</a>
-        <a href="{{ '/contact/' | relative_url }}"{% if page.url == '/contact/' %} aria-current="page"{% endif %}>contact</a>
+        <a href="{{ '/about/#writing' | relative_url }}"{% if page.layout == 'post' %} aria-current="page"{% endif %}>writing</a>
+        <a href="{{ '/about/#contact' | relative_url }}">say hi</a>
       </nav>
     </header>
 
