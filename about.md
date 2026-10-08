@@ -23,6 +23,3 @@ Some random cool things: <br>
 - ASAP science's <a href="https://youtu.be/rz4Dd1I_fX0">periodic table song</a> which I remember by heart.<br>
 - Me, I'm cool.
 </p>
-
-<br>
-<sub>Website template is [Hyde](https://github.com/poole/hyde).</sub>

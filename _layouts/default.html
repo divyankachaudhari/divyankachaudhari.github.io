@@ -1,15 +1,27 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
+<html lang="en">
   {% include head.html %}
+  <body class="reader">
+    {%- assign path = page.url | remove_first: "/" | remove: ".html" -%}
+    <header class="topbar">
+      <a class="prompt" href="{{ '/' | relative_url }}" title="back to the terminal">
+        <span class="u">divyanka</span><span class="dim">@</span><span class="h">london</span><span class="dim">:</span><span class="p">~/{{ path }}</span><span class="dim">$</span><span class="cursor" aria-hidden="true"></span>
+      </a>
+      <nav aria-label="Main">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>~</a>
+        <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>about</a>
+        <a href="{{ '/writing/' | relative_url }}"{% if page.url == '/writing/' or page.layout == 'post' %} aria-current="page"{% endif %}>writing</a>
+        <a href="{{ '/contact/' | relative_url }}"{% if page.url == '/contact/' %} aria-current="page"{% endif %}>contact</a>
+      </nav>
+    </header>
 
-  <body>
-
-    {% include sidebar.html %}
-
-    <div class="content container">
+    <main class="sheet">
       {{ content }}
-    </div>
+    </main>
 
+    <footer class="foot">
+      {% include social.html %}
+      <p class="dim">built with jekyll &amp; too much free time &middot; <a href="https://github.com/divyankachaudhari/divyankachaudhari.github.io" target="_blank" rel="noopener">view source</a></p>
+    </footer>
   </body>
 </html>

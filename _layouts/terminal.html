@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  {% include writing.html %}
+  <body class="home">
+    <main class="term-wrap">
+      <section class="term" aria-label="Terminal">
+        <div class="term-bar">
+          <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="term-title">divyanka@london: <span class="cwd">~</span></span>
+          <a class="term-gui" href="{{ '/about/' | relative_url }}" title="the normal website">gui mode &rarr;</a>
+        </div>
+
+        <div class="term-body" id="term-body">
+          <div id="out">
+            <svg class="banner" viewBox="0 0 62 12" role="img" aria-label="divyanka" shape-rendering="crispEdges"><g fill="currentColor"><rect x="0" y="2" width="6" height="2"/><rect x="8" y="2" width="2" height="2"/><rect x="11" y="2" width="2" height="2"/><rect x="17" y="2" width="2" height="2"/><rect x="20" y="2" width="2" height="2"/><rect x="26" y="2" width="2" height="2"/><rect x="30" y="2" width="5" height="2"/><rect x="37" y="2" width="3" height="2"/><rect x="44" y="2" width="2" height="2"/><rect x="47" y="2" width="2" height="2"/><rect x="52" y="2" width="2" height="2"/><rect x="56" y="2" width="5" height="2"/><rect x="0" y="4" width="2" height="2"/><rect x="5" y="4" width="2" height="2"/><rect x="8" y="4" width="2" height="2"/><rect x="11" y="4" width="2" height="2"/><rect x="17" y="4" width="2" height="2"/><rect x="21" y="4" width="2" height="2"/><rect x="25" y="4" width="2" height="2"/><rect x="29" y="4" width="2" height="2"/><rect x="34" y="4" width="2" height="2"/><rect x="37" y="4" width="4" height="2"/><rect x="44" y="4" width="2" height="2"/><rect x="47" y="4" width="2" height="2"/><rect x="51" y="4" width="2" height="2"/><rect x="55" y="4" width="2" height="2"/><rect x="60" y="4" width="2" height="2"/><rect x="0" y="6" width="2" height="2"/><rect x="5" y="6" width="2" height="2"/><rect x="8" y="6" width="2" height="2"/><rect x="11" y="6" width="2" height="2"/><rect x="17" y="6" width="2" height="2"/><rect x="22" y="6" width="4" height="2"/><rect x="29" y="6" width="7" height="2"/><rect x="37" y="6" width="2" height="2"/><rect x="40" y="6" width="2" height="2"/><rect x="44" y="6" width="2" height="2"/><rect x="47" y="6" width="5" height="2"/><rect x="55" y="6" width="7" height="2"/><rect x="0" y="8" width="2" height="2"/><rect x="5" y="8" width="2" height="2"/><rect x="8" y="8" width="2" height="2"/><rect x="12" y="8" width="2" height="2"/><rect x="16" y="8" width="2" height="2"/><rect x="23" y="8" width="2" height="2"/><rect x="29" y="8" width="2" height="2"/><rect x="34" y="8" width="2" height="2"/><rect x="37" y="8" width="2" height="2"/><rect x="41" y="8" width="2" height="2"/><rect x="44" y="8" width="2" height="2"/><rect x="47" y="8" width="2" height="2"/><rect x="51" y="8" width="2" height="2"/><rect x="55" y="8" width="2" height="2"/><rect x="60" y="8" width="2" height="2"/><rect x="0" y="10" width="6" height="2"/><rect x="8" y="10" width="2" height="2"/><rect x="13" y="10" width="4" height="2"/><rect x="23" y="10" width="2" height="2"/><rect x="29" y="10" width="2" height="2"/><rect x="34" y="10" width="2" height="2"/><rect x="37" y="10" width="2" height="2"/><rect x="42" y="10" width="4" height="2"/><rect x="47" y="10" width="2" height="2"/><rect x="52" y="10" width="2" height="2"/><rect x="55" y="10" width="2" height="2"/><rect x="60" y="10" width="2" height="2"/></g></svg>
+            <p class="dim">divyanka.sh v{{ site.time | date: "%Y.%-m" }} &middot; last login: <span id="last-login">just now</span> from the internet</p>
+            <p>Hi, I'm <b class="hl">Divyanka Chaudhari</b>, a quant in London (ex-CS at IIT Delhi). I like the internet, bikes, rocks, skates and clay.</p>
+            <p class="status-line"><span class="dim">status:</span> <span id="status">online</span></p>
+            <p class="hint">Type <a href="#" class="cmd" data-cmd="help">help</a>, or just click: <a href="#" class="cmd" data-cmd="about">about</a> <a href="#" class="cmd" data-cmd="ls writing">writing</a> <a href="#" class="cmd" data-cmd="photos">photos</a> <a href="#" class="cmd" data-cmd="contact">contact</a> <a href="#" class="cmd" data-cmd="neofetch">neofetch</a></p>
+            <noscript>
+              <p>JavaScript is off, so here's the plain version:
+                <a href="{{ '/about/' | relative_url }}">about</a> &middot;
+                <a href="{{ '/writing/' | relative_url }}">writing</a> &middot;
+                <a href="{{ '/contact/' | relative_url }}">contact</a> &middot;
+                <a href="{{ site.instagram }}">photos</a></p>
+            </noscript>
+          </div>
+
+          <form id="prompt" class="line" autocomplete="off">
+            <label for="cmd" class="ps1"><span class="u">divyanka</span><span class="dim">@</span><span class="h">london</span><span class="dim">:</span><span class="p cwd">~</span><span class="dim">$</span></label>
+            <input id="cmd" name="cmd" type="text" spellcheck="false" autocapitalize="off" autocorrect="off" enterkeyhint="go" aria-label="Type a command">
+          </form>
+        </div>
+
+        <div class="chips" aria-label="Quick commands">
+          <button type="button" class="cmd" data-cmd="help">help</button>
+          <button type="button" class="cmd" data-cmd="about">about</button>
+          <button type="button" class="cmd" data-cmd="ls writing">writing</button>
+          <button type="button" class="cmd" data-cmd="photos">photos</button>
+          <button type="button" class="cmd" data-cmd="contact">contact</button>
+          <button type="button" class="cmd" data-cmd="clear">clear</button>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      window.SITE = {
+        posts: [
+          {%- for w in writing -%}
+          {%- assign p = w | split: "|" -%}
+          { "date": {{ p[0] | jsonify }}, "url": {{ p[1] | jsonify }}, "title": {{ p[2] | jsonify }} }{% unless forloop.last %},{% endunless %}
+          {%- endfor -%}
+        ],
+        links: {
+          github: {{ site.github.repo | jsonify }},
+          linkedin: {{ site.linkedin | jsonify }},
+          x: {{ site.x | jsonify }},
+          instagram: {{ site.instagram | jsonify }}
+        },
+        pages: {
+          about: {{ '/about/' | relative_url | jsonify }},
+          writing: {{ '/writing/' | relative_url | jsonify }},
+          contact: {{ '/contact/' | relative_url | jsonify }}
+        },
+        contactForm: "https://docs.google.com/forms/d/e/1FAIpQLSf2Hi9ZoWQsvLQl9M1gYx_JcbGzy_PJuzzuA7Fz6PPmhK4qQw/viewform",
+        source: "https://github.com/divyankachaudhari/divyankachaudhari.github.io"
+      };
+    </script>
+    <script src="{{ '/public/js/terminal.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+  </body>
+</html>

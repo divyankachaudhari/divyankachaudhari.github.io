@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2024-06-04
 title: Outreachy Blog - Week 1
 ---
 

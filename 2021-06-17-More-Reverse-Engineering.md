@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2021-06-17
 title: More Reverse Engineering
 permalink: reverse-engineering-using-cutter
 redirect_from: "/2020/07/23/reverse-engineering-using-cutter/"

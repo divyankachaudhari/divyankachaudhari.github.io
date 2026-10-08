@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
+<article class="page">
+  <h1 class="page-title"><span class="hash" aria-hidden="true"># </span>{{ page.title | downcase }}</h1>
   {{ content }}
-</div>
+</article>

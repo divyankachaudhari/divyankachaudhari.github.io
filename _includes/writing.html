@@ -1,0 +1,10 @@
+{%- comment -%}
+  Builds `writing`: every blog post, newest first, as "YYYY-MM-DD|url|title" strings.
+  Some posts live in _posts/, others are root pages with `layout: post`, so both are merged here.
+{%- endcomment -%}
+{%- assign page_posts = site.pages | where: "layout", "post" -%}
+{%- capture raw -%}
+{%- for p in site.posts -%}{{ p.date | date: "%Y-%m-%d" }}|{{ p.url | relative_url }}|{{ p.title | strip }}§{%- endfor -%}
+{%- for p in page_posts -%}{{ p.date | date: "%Y-%m-%d" }}|{{ p.url | relative_url }}|{{ p.title | strip }}§{%- endfor -%}
+{%- endcapture -%}
+{%- assign writing = raw | split: "§" | sort | reverse -%}
