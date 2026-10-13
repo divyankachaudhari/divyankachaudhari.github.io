@@ -105,7 +105,6 @@
         '<p>Say hi. I read everything, eventually (faster in summer).</p>',
         '<table class="kv">',
         '<tr><td>form</td><td>' + ext(S.contactForm, 'anonymous-friendly contact form') + '</td></tr>',
-        S.links.x ? '<tr><td>x</td><td>' + ext(S.links.x, '@' + slug(S.links.x)) + ' (DMs open-ish)</td></tr>' : '',
         S.links.linkedin ? '<tr><td>linkedin</td><td>' + ext(S.links.linkedin, 'divyanka-chaudhari') + '</td></tr>' : '',
         '</table>'
       ].join('');
@@ -114,7 +113,6 @@
       var rows = [
         ['github', S.links.github],
         ['linkedin', S.links.linkedin],
-        ['x', S.links.x],
         ['instagram', S.links.instagram]
       ].filter(function (r) { return r[1]; }).map(function (r) {
         return '<tr><td>' + r[0] + '</td><td>' + ext(r[1], r[1].replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')) + '</td></tr>';

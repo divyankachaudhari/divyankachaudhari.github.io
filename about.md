@@ -34,7 +34,6 @@ The easiest way is [this contact form](https://docs.google.com/forms/d/e/1FAIpQL
 <ul class="links-list">
   <li><span class="dim">github</span> <a href="{{ site.github.repo }}">divyankachaudhari</a></li>
   <li><span class="dim">linkedin</span> <a href="{{ site.linkedin }}">divyanka-chaudhari</a></li>
-  <li><span class="dim">x</span> <a href="{{ site.x }}">@chiaseedswhat</a></li>
   <li><span class="dim">instagram</span> <a href="{{ site.instagram }}">@divycx.jpeg</a> <span class="dim">(photos)</span></li>
 </ul>
 
