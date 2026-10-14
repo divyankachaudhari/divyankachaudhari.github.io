@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ '/' | relative_url }}">
+        <a href="{{ '/blog/' | relative_url }}">
           {{ site.title }}
         </a>
       </h1>
@@ -10,7 +10,7 @@
     </div>
 
     <nav class="sidebar-nav" aria-label="Main">
-      <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}">Blog</a>
+      <a class="sidebar-nav-item{% if page.url contains '/blog/' %} active{% endif %}" href="{{ '/blog/' | relative_url }}">Blog</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -23,6 +23,7 @@
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
         {% endif %}
       {% endfor %}
+      <a class="sidebar-nav-item" href="{{ '/' | relative_url }}">Terminal <span class="sidebar-nav-hint">&gt;_</span></a>
     </nav>
 
     {% include social.html %}

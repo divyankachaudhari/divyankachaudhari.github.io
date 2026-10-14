@@ -1,0 +1,158 @@
+/* divyanka.sh: the terminal homepage. Deliberately old: black screen, system mono, xterm colours. */
+
+:root {
+  --bg: #000;
+  --fg: #c7c7c7;
+  --dim: #7f7f7f;
+  --green: #00cd00;
+  --bright-green: #5ff967;
+  --blue: #6871ff;
+  --cyan: #00cdcd;
+  --yellow: #cdcd00;
+  --red: #cd0000;
+  --magenta: #cd00cd;
+  --mono: Monaco, Menlo, "DejaVu Sans Mono", "Lucida Console", "Courier New", monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+
+html, body { height: 100%; }
+
+body.tty {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--mono);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+::selection { background: var(--fg); color: var(--bg); }
+
+.term {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px 16px 24px;
+  max-width: 100%;
+}
+
+.term p { margin: 0 0 .6em; }
+.term pre { margin: 0; font: inherit; white-space: pre; }
+.term b { font-weight: bold; }
+.term a { color: var(--cyan); text-decoration: underline; }
+.term a:hover { background: var(--cyan); color: var(--bg); text-decoration: none; }
+.term :focus-visible { outline: 1px dotted var(--fg); outline-offset: 1px; }
+
+.dim { color: var(--dim); }
+.hl, .hot, .warm { color: var(--yellow); }
+.cold { color: var(--cyan); }
+.u { color: var(--green); font-weight: bold; }
+.h { color: var(--green); }
+.p { color: var(--blue); font-weight: bold; }
+.err { color: var(--red); }
+
+.banner {
+  color: var(--fg);
+  margin: .4em 0 1em !important;
+  overflow: hidden;
+  font-size: min(14px, calc((100vw - 32px) / 26));
+  line-height: 1.2;
+}
+
+a.cmd { color: var(--green); }
+a.cmd:hover { background: var(--green); color: var(--bg); }
+a.cmd.dir { color: var(--blue); font-weight: bold; }
+a.cmd.dir:hover { background: var(--blue); }
+a.cmd.link { color: var(--cyan); }
+a.cmd.file { color: var(--fg); }
+a.cmd.file:hover { background: var(--fg); }
+
+.block { margin: 0 0 .8em; }
+.block.echo { margin: .3em 0 .3em; }
+.hint a.cmd + a.cmd { margin-left: .5em; }
+
+table.kv, table.ls { border-collapse: collapse; margin: 0 0 .4em; }
+table.kv td, table.ls td { padding: 0 2ch 0 0; vertical-align: top; }
+table.kv td:first-child { color: var(--yellow); white-space: nowrap; }
+table.ls td:nth-child(2) { white-space: nowrap; }
+.ls-row a, .ls-row span { margin-right: 2ch; }
+
+.neofetch { display: flex; gap: 3ch; flex-wrap: wrap; align-items: flex-start; }
+.neofetch .art { color: var(--fg); }
+
+.line { display: flex; align-items: baseline; gap: 1ch; }
+.ps1 { white-space: nowrap; }
+#cmd {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: 0;
+  outline: none;
+  color: var(--fg);
+  font: inherit;
+  padding: 0;
+  caret-color: var(--fg);
+  caret-shape: block;
+  border-radius: 0;
+}
+
+/* snake */
+.game-bar { margin-bottom: .2em !important; }
+.term pre.game { display: inline-block; line-height: 1.2; user-select: none; touch-action: none; }
+.game .frame { color: var(--dim); }
+.game .sn { color: var(--green); }
+.game .hd { color: var(--bright-green); font-weight: bold; }
+.game .fd { color: var(--red); font-weight: bold; }
+.game-help { margin-top: .3em !important; }
+.dpad {
+  display: grid;
+  grid-template-columns: repeat(3, 48px);
+  grid-template-rows: repeat(2, 40px);
+  gap: 4px;
+  margin-top: 8px;
+}
+.dpad button {
+  font: inherit;
+  color: var(--fg);
+  background: var(--bg);
+  border: 1px solid var(--dim);
+  border-radius: 0;
+  touch-action: manipulation;
+}
+.dpad button:active { background: var(--fg); color: var(--bg); }
+.dpad [data-dir="ArrowUp"] { grid-column: 2; grid-row: 1; }
+.dpad [data-dir="ArrowLeft"] { grid-column: 1; grid-row: 2; }
+.dpad [data-dir="ArrowDown"] { grid-column: 2; grid-row: 2; }
+.dpad [data-dir="ArrowRight"] { grid-column: 3; grid-row: 2; }
+
+/* quick commands, phones only */
+.chips { display: none; }
+
+@media (max-width: 640px) {
+  body.tty { font-size: 13px; }
+  .term { padding: 10px 12px 16px; }
+  .hint { display: none; }
+  #cmd { font-size: 16px; } /* stops iOS zooming into the input */
+  .chips {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding: 8px 12px calc(8px + env(safe-area-inset-bottom));
+    border-top: 1px solid var(--dim);
+    scrollbar-width: none;
+  }
+  .chips button {
+    flex: none;
+    font: inherit;
+    color: var(--green);
+    background: var(--bg);
+    border: 1px solid var(--dim);
+    border-radius: 0;
+    padding: 6px 10px;
+  }
+  .chips button:active { background: var(--green); color: var(--bg); }
+  .term pre.game { font-size: 11px; }
+}

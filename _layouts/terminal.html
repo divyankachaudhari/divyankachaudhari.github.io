@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  {% include writing.html %}
+  <body class="tty">
+    <main class="term" id="term-body" aria-label="Terminal">
+      <div id="out">
+        <p class="dim">Last login: <span id="last-login">today</span> on ttys000</p>
+<pre class="banner" aria-label="divyanka">
+     _ _                         _         
+  __| (_)_   ___   _  __ _ _ __ | | ____ _ 
+ / _` | \ \ / / | | |/ _` | &#x27;_ \| |/ / _` |
+| (_| | |\ V /| |_| | (_| | | | |   &lt; (_| |
+ \__,_|_| \_/  \__, |\__,_|_| |_|_|\_\__,_|
+               |___/
+</pre>
+        <p>Hi, I'm <b class="hl">Divyanka Chaudhari</b>, a quant in London (ex-CS at IIT Delhi).<br>I like the internet, bikes, rocks, skates and clay.</p>
+        <p><span class="dim">status:</span> <span id="status">online</span></p>
+        <p class="hint">Type <a href="#" class="cmd" data-cmd="help">help</a> or click: <a href="#" class="cmd" data-cmd="about">about</a> <a href="#" class="cmd" data-cmd="ls writing">writing</a> <a href="#" class="cmd" data-cmd="photos">photos</a> <a href="#" class="cmd" data-cmd="contact">contact</a> <a href="#" class="cmd" data-cmd="neofetch">neofetch</a> <a href="#" class="cmd" data-cmd="snake">snake</a></p>
+        <p class="dim">Prefer the normal website? <a href="{{ '/blog/' | relative_url }}">Go to the GUI</a> (or type <a href="#" class="cmd" data-cmd="gui">gui</a>).</p>
+        <noscript>
+          <p>JavaScript is off, so here's the plain version:
+            <a href="{{ '/blog/' | relative_url }}">blog</a> |
+            <a href="{{ '/about/' | relative_url }}">about</a> |
+            <a href="{{ '/contact/' | relative_url }}">contact</a> |
+            <a href="{{ site.instagram }}">photos</a></p>
+        </noscript>
+      </div>
+
+      <form id="prompt" class="line" autocomplete="off">
+        <label for="cmd" class="ps1"><span class="u">divyanka@london</span>:<span class="p cwd">~</span>$</label>
+        <input id="cmd" name="cmd" type="text" spellcheck="false" autocapitalize="off" autocorrect="off" enterkeyhint="go" aria-label="Type a command">
+      </form>
+    </main>
+
+    <nav class="chips" aria-label="Quick commands">
+      <button type="button" class="cmd" data-cmd="help">help</button>
+      <button type="button" class="cmd" data-cmd="about">about</button>
+      <button type="button" class="cmd" data-cmd="ls writing">writing</button>
+      <button type="button" class="cmd" data-cmd="photos">photos</button>
+      <button type="button" class="cmd" data-cmd="contact">contact</button>
+      <button type="button" class="cmd" data-cmd="snake">snake</button>
+      <button type="button" class="cmd" data-cmd="gui">gui</button>
+    </nav>
+
+    <script>
+      window.SITE = {
+        posts: [
+          {%- for w in writing -%}
+          {%- assign p = w | split: "|" -%}
+          { "date": {{ p[0] | jsonify }}, "url": {{ p[1] | jsonify }}, "title": {{ p[2] | jsonify }} }{% unless forloop.last %},{% endunless %}
+          {%- endfor -%}
+        ],
+        links: {
+          github: {{ site.github.repo | jsonify }},
+          linkedin: {{ site.linkedin | jsonify }},
+          instagram: {{ site.instagram | jsonify }}
+        },
+        pages: {
+          blog: {{ '/blog/' | relative_url | jsonify }},
+          about: {{ '/about/' | relative_url | jsonify }},
+          writing: {{ '/blog/' | relative_url | jsonify }},
+          contact: {{ '/contact/' | relative_url | jsonify }}
+        },
+        contactForm: "https://docs.google.com/forms/d/e/1FAIpQLSf2Hi9ZoWQsvLQl9M1gYx_JcbGzy_PJuzzuA7Fz6PPmhK4qQw/viewform",
+        source: "https://github.com/divyankachaudhari/divyankachaudhari.github.io"
+      };
+    </script>
+    <script src="{{ '/public/js/terminal.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+  </body>
+</html>

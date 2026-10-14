@@ -1,0 +1,7 @@
+{%- comment -%}
+  Builds `writing`: the posts in _posts/, newest first, as "YYYY-MM-DD|url|title" strings.
+{%- endcomment -%}
+{%- capture raw -%}
+{%- for p in site.posts -%}{{ p.date | date: "%Y-%m-%d" }}|{{ p.url | relative_url }}|{{ p.title | strip }}§{%- endfor -%}
+{%- endcapture -%}
+{%- assign writing = raw | split: "§" -%}

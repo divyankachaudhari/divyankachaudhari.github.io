@@ -198,3 +198,6 @@ embed {
     justify-content: center;
   }
 }
+
+/* "Terminal" link in the sidebar */
+.sidebar-nav-hint { opacity: .5; font-family: Menlo, Consolas, monospace; font-size: .85em; }
