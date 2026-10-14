@@ -1,6 +1,5 @@
 ---
 layout: post
-date: 2019-06-29
 title: My JEE Story
 ---
 

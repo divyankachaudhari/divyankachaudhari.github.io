@@ -1,7 +1,6 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
-exclude:          [README.md, LICENSE.md, random, "*.bundle", images/2020-07-17-introduction-to-reverse-engineering.md, images/2020-12-06-my-experience-at-Programming-languages-mentoring-workshop-at-SPLASH-2020.md, images/2021-04-23-Reverse-Engineering-Using-Cutter.md]
 
 # Permalinks
 permalink:        pretty
@@ -17,6 +16,8 @@ baseurl:          ""
 author:
   name:           'Divyanka Chaudhari'
   url:            https://divyankachaudhari.github.io
+
+paginate:         5
 
 # Visitor tracking: fill in ONE (see _includes/analytics.html)
 google_analytics: ""   # e.g. G-ABC123XYZ9
@@ -35,6 +36,6 @@ linkedin:         https://www.linkedin.com/in/divyanka-chaudhari/
 instagram:        https://www.instagram.com/divycx.jpeg/
 
 plugins:
+  - jekyll-paginate
   - jekyll-gist
   - jekyll-sitemap
-  - jekyll-redirect-from
