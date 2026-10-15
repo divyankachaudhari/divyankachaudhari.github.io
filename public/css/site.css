@@ -156,3 +156,72 @@ table.ls td:nth-child(2) { white-space: nowrap; }
   .chips button:active { background: var(--green); color: var(--bg); }
   .term pre.game { font-size: 11px; }
 }
+
+/* ---------- programs ---------- */
+
+.inv { background: var(--fg); color: var(--bg); }
+.term pre.wrap { white-space: pre-wrap; word-break: break-word; }
+.help td:first-child { width: 7ch; }
+.help a.cmd { margin-right: 1.2ch; }
+
+/* less */
+.pager {
+  max-height: calc(100vh - 110px);
+  max-height: calc(100dvh - 110px);
+  overflow-y: auto;
+  padding-right: 1ch;
+  max-width: 88ch;
+  outline: none;
+}
+.pager .para { margin: 0 0 .9em; }
+.pager .para .para { margin: 0; }
+.pager .li { padding-left: 2ch; text-indent: -2ch; }
+.pager pre.code { white-space: pre; overflow-x: auto; color: var(--yellow); margin: 0 0 .9em; padding-left: 2ch; border-left: 1px solid var(--dim); }
+.pager-status { margin: .3em 0 0 !important; }
+
+/* man */
+.term pre.man { white-space: pre; overflow-x: auto; }
+
+/* 2048 */
+.g2048 .t0 { color: var(--dim); }
+.g2048 .t2, .g2048 .t4 { color: var(--fg); }
+.g2048 .t8, .g2048 .t16 { color: var(--cyan); }
+.g2048 .t32, .g2048 .t64 { color: var(--green); }
+.g2048 .t128, .g2048 .t256 { color: var(--yellow); }
+.g2048 .t512, .g2048 .t1024 { color: var(--magenta); font-weight: bold; }
+.g2048 .t2048, .g2048 .t4096 { color: var(--bg); background: var(--yellow); font-weight: bold; }
+
+/* hangman letters on touch screens */
+.letters { display: grid; grid-template-columns: repeat(9, 1fr); gap: 4px; max-width: 360px; margin-top: 8px; }
+.letters button {
+  font: inherit;
+  color: var(--fg);
+  background: var(--bg);
+  border: 1px solid var(--dim);
+  border-radius: 0;
+  padding: 6px 0;
+  touch-action: manipulation;
+}
+.letters button:disabled { color: var(--dim); border-color: transparent; }
+
+/* cmatrix */
+canvas.matrix { position: fixed; inset: 0; z-index: 100; background: #000; cursor: pointer; }
+
+/* sl */
+.term pre.sl { overflow: hidden; }
+
+/* ---------- phosphor themes (`theme green|amber|white`) ---------- */
+
+body[data-theme="green"] {
+  --fg: #33ff66; --dim: #1c8f3b; --green: #33ff66; --bright-green: #b6ffc8;
+  --blue: #33ff66; --cyan: #33ff66; --yellow: #a6ffbd; --red: #33ff66; --magenta: #a6ffbd;
+}
+body[data-theme="amber"] {
+  --fg: #ffb000; --dim: #9a6a00; --green: #ffb000; --bright-green: #ffd780;
+  --blue: #ffb000; --cyan: #ffb000; --yellow: #ffd780; --red: #ffb000; --magenta: #ffd780;
+}
+body[data-theme="white"] {
+  --fg: #e6e6e6; --dim: #8a8a8a; --green: #e6e6e6; --bright-green: #ffffff;
+  --blue: #ffffff; --cyan: #e6e6e6; --yellow: #ffffff; --red: #ffffff; --magenta: #ffffff;
+}
+body[data-theme] .u, body[data-theme] .p, body[data-theme] .hl { font-weight: bold; }
