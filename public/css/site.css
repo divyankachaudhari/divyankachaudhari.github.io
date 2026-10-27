@@ -1,16 +1,16 @@
-/* divyanka.sh: the terminal homepage. Deliberately old: black screen, system mono, xterm colours. */
+/* divyanka.sh: the terminal homepage. Deliberately old (black screen, system mono, no glow), in pastels. */
 
 :root {
-  --bg: #000;
-  --fg: #c7c7c7;
-  --dim: #7f7f7f;
-  --green: #00cd00;
-  --bright-green: #5ff967;
-  --blue: #6871ff;
-  --cyan: #00cdcd;
-  --yellow: #cdcd00;
-  --red: #cd0000;
-  --magenta: #cd00cd;
+  --bg: #0f0e13;
+  --fg: #e4dff0;
+  --dim: #8a849c;
+  --green: #b5e8b0;
+  --bright-green: #d9f7d4;
+  --blue: #a9c7ff;
+  --cyan: #a8e6dc;
+  --yellow: #f8e3a8;
+  --red: #f7a8b8;
+  --magenta: #f5b8d6;
   --mono: Monaco, Menlo, "DejaVu Sans Mono", "Lucida Console", "Courier New", monospace;
 }
 
@@ -49,13 +49,13 @@ body.tty {
 .dim { color: var(--dim); }
 .hl, .hot, .warm { color: var(--yellow); }
 .cold { color: var(--cyan); }
-.u { color: var(--green); font-weight: bold; }
+.u { color: var(--magenta); font-weight: bold; }
 .h { color: var(--green); }
 .p { color: var(--blue); font-weight: bold; }
 .err { color: var(--red); }
 
 .banner {
-  color: var(--fg);
+  color: var(--magenta);
   margin: .4em 0 1em !important;
   overflow: hidden;
   font-size: min(14px, calc((100vw - 32px) / 26));
@@ -210,7 +210,14 @@ canvas.matrix { position: fixed; inset: 0; z-index: 100; background: #000; curso
 /* sl */
 .term pre.sl { overflow: hidden; }
 
-/* ---------- phosphor themes (`theme green|amber|white`) ---------- */
+/* ---------- other themes (`theme classic|green|amber|white`) ---------- */
+
+body[data-theme="classic"] {
+  --bg: #000; --fg: #c7c7c7; --dim: #7f7f7f; --green: #00cd00; --bright-green: #5ff967;
+  --blue: #6871ff; --cyan: #00cdcd; --yellow: #cdcd00; --red: #cd0000; --magenta: #cd00cd;
+}
+body[data-theme="classic"] .u { color: var(--green); }
+body[data-theme="classic"] .banner { color: var(--fg); }
 
 body[data-theme="green"] {
   --fg: #33ff66; --dim: #1c8f3b; --green: #33ff66; --bright-green: #b6ffc8;
@@ -225,3 +232,6 @@ body[data-theme="white"] {
   --blue: #ffffff; --cyan: #e6e6e6; --yellow: #ffffff; --red: #ffffff; --magenta: #ffffff;
 }
 body[data-theme] .u, body[data-theme] .p, body[data-theme] .hl { font-weight: bold; }
+
+/* easter egg */
+.term pre.trophy { color: var(--yellow); }

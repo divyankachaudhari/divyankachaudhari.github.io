@@ -114,9 +114,9 @@
 
   /* ---------- themes ---------- */
 
-  var THEMES = ['default', 'green', 'amber', 'white'];
+  var THEMES = ['pastel', 'classic', 'green', 'amber', 'white'];
   function applyTheme(t) {
-    if (t === 'default') document.body.removeAttribute('data-theme');
+    if (t === 'pastel') document.body.removeAttribute('data-theme');
     else document.body.setAttribute('data-theme', t);
   }
 
@@ -914,6 +914,113 @@
     a.raf = requestAnimationFrame(frame);
   }
 
+  /* ---------- easter egg: a tiny CTF hidden in ls -a ---------- */
+  // trail: ls -a -> cat .secrets -> strings .vault.bin -> echo ... | rot13 -> unlock <password>
+
+  var VAULT_PASSWORD = 'lopsided';
+  function vaultCracked() { return store('vault') === '1'; }
+  function rot13(t) {
+    return String(t).replace(/[a-z]/gi, function (c) {
+      var base = c <= 'Z' ? 65 : 97;
+      return String.fromCharCode((c.charCodeAt(0) - base + 13) % 26 + base);
+    });
+  }
+  var VAULT_STRINGS = [
+    '/lib64/ld-linux-x86-64.so.2',
+    'libc.so.6',
+    'puts',
+    'strcmp',
+    'GLIBC_2.2.5',
+    'enter password:',
+    'wrong. the snake will remember that.',
+    'hint: rot13 is a cipher, not a security measure',
+    rot13('password: ' + VAULT_PASSWORD),
+    'correct! run: unlock <password>',
+    'GCC: (GNU) 13.2.0',
+    '.text',
+    '.data',
+    '.bss'
+  ];
+
+  function unlockVault(pw) {
+    pw = String(pw || '').trim().toLowerCase();
+    if (!pw) return '<p class="dim">usage: unlock &lt;password&gt;</p>';
+    if (pw !== VAULT_PASSWORD) return '<p class="err">access denied.</p><p class="dim">' + esc(VAULT_STRINGS[6]) + '</p>';
+    var first = !vaultCracked();
+    store('vault', '1');
+    var trophy = [
+      '     ___________',
+      '    |           |',
+      '    |  CAPTURED |',
+      '    |    THE    |',
+      '    |   FLAG    |',
+      '     \\         /',
+      '      `-.___.-\'',
+      '         | |',
+      '       __|_|__',
+      '      |_______|'
+    ].join('\n');
+    return '<pre class="trophy">' + esc(trophy) + '</pre>' +
+      '<p><b class="hl">flag{lopsided_bowls_still_hold_tea}</b></p>' +
+      '<p>you cracked the vault. very few people ever find this. ' +
+      '<a href="' + esc(S.contactForm) + '" target="_blank" rel="noopener">tell me you did</a>, I\'d love to know.</p>' +
+      (first ? '<p>unlocked a secret command: ' + cmd('snow') + ' <span class="dim">(for hibernation season)</span></p>'
+             : '<p class="dim">you\'ve been here before. ' + cmd('snow') + ' is still yours.</p>');
+  }
+
+  function startSnow() {
+    if (reducedMotion) { print('<p>snow: it\'s snowing, quietly. (animation skipped: reduced motion is on.)</p>'); return; }
+    var canvas = document.createElement('canvas');
+    canvas.className = 'matrix';
+    canvas.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(canvas);
+    var ctx = canvas.getContext('2d');
+    var color = getComputedStyle(document.body).getPropertyValue('--fg').trim() || '#e4dff0';
+    var flakes = [], last = 0;
+    var a = { name: 'snow', raf: 0 };
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      flakes = [];
+      var n = Math.floor(canvas.width * canvas.height / 9000);
+      for (var i = 0; i < n; i++) {
+        flakes.push({ x: Math.random() * canvas.width, y: Math.random() * canvas.height, v: 0.6 + Math.random() * 1.6, c: pick(['*', '.', '+', '.', '*']), p: Math.random() * 6 });
+      }
+    }
+    function frame(t) {
+      a.raf = requestAnimationFrame(frame);
+      if (t - last < 33) return;
+      last = t;
+      ctx.fillStyle = '#000';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = color;
+      ctx.font = '14px Monaco, Menlo, monospace';
+      flakes.forEach(function (f) {
+        f.y += f.v;
+        f.p += 0.03;
+        f.x += Math.sin(f.p) * 0.4;
+        if (f.y > canvas.height) { f.y = -10; f.x = Math.random() * canvas.width; }
+        ctx.fillText(f.c, f.x, f.y);
+      });
+      ctx.fillStyle = color;
+      ctx.font = '13px Monaco, Menlo, monospace';
+      ctx.fillText('hibernation mode. press any key to wake up.', 16, canvas.height - 18);
+    }
+    a.key = function () { stopApp(); return true; };
+    a.action = function () { stopApp(); };
+    a.stop = function () {
+      cancelAnimationFrame(a.raf);
+      window.removeEventListener('resize', resize);
+      canvas.remove();
+      print('<p class="dim">*yawn* ' + esc(status().note) + '</p>');
+    };
+    canvas.addEventListener('click', function () { if (app === a) stopApp(); });
+    window.addEventListener('resize', resize);
+    resize();
+    startApp(a);
+    a.raf = requestAnimationFrame(frame);
+  }
+
   /* ---------- commands ---------- */
 
   function helpTable() {
@@ -943,7 +1050,7 @@
         if (target && target !== '.' && target !== '~' && target !== '..') {
           return '<p>ls: ' + esc(target) + ': No such file or directory</p>';
         }
-        var extra = /-\w*a/.test(args.join(' ')) ? '<span class="dim">.secrets</span>  ' : '';
+        var extra = /-\w*a/.test(args.join(' ')) ? cmd('cat .secrets', '.secrets') + '  ' + cmd('cat .vault.bin', '.vault.bin') + '  ' : '';
         return '<p class="ls-row">' + extra + HOME.map(function (f) {
           return '<a href="#" class="cmd ' + f.cls + '" data-cmd="' + esc(f.run) + '">' + esc(f.name) + '</a>';
         }).join('  ') + '</p>';
@@ -963,7 +1070,8 @@
       run: function (args) {
         var f = (args[0] || '').replace(/^writing\//, '');
         if (!f) return '<p class="dim">usage: cat about.txt</p>';
-        if (f === '.secrets') return '<p>i once beat a CTF flag out of a binary with nothing but patience and objdump. that\'s the secret.</p>';
+        if (f === '.secrets') return '<p>so you found the hidden files. nice.</p><p>the next one is a binary, and real reversers don\'t <span class="hl">cat</span> binaries. what would you run on a binary to find readable text in it?</p>';
+        if (f === '.vault.bin') return '<pre class="wrap dim">' + esc('\u007fELF\u0002\u0001\u0001\u0000\u0000\u0000 @\u0000\u0038\u0000 \u0000\u0000 \u0000> \u0001\u0000 \u0090\u0010 \u0000...') + '</pre><p class="err">cat: .vault.bin: binary file. try <span class="hl">strings</span>.</p>';
         if (FILES[f]) return FILES[f]();
         var p = findPost(f);
         if (p) { startLess(p); return ''; }
@@ -1048,7 +1156,7 @@
           ['de', 'IIT Delhi (CSE)'],
           ['hobbies', 'bike, boulder, skate, clay'],
           ['pottery', 'lvl 1 (bowls: lopsided)'],
-          ['theme', document.body.getAttribute('data-theme') || 'default'],
+          ['theme', document.body.getAttribute('data-theme') || 'pastel'],
           ['mode', s.text]
         ].map(function (r) { return r[0] ? '<span class="h">' + r[0] + '</span>: ' + r[1] : r[1]; }).join('\n');
         return '<div class="neofetch"><pre class="art">' + esc(art) + '</pre><pre>' + info + '</pre></div>';
@@ -1071,10 +1179,10 @@
     theme: {
       run: function (args) {
         var t = (args[0] || '').toLowerCase();
-        var cur = document.body.getAttribute('data-theme') || 'default';
+        var cur = document.body.getAttribute('data-theme') || 'pastel';
         if (!t) {
           return '<p>current theme: <span class="hl">' + cur + '</span></p><p>' + THEMES.map(function (x) { return cmd('theme ' + x, x); }).join('  ') +
-            '</p><p class="dim">green and amber are old CRT phosphor colours. your choice is remembered.</p>';
+            '</p><p class="dim">pastel is the default. classic is the old xterm look; green and amber are old CRT monitor colours. your choice is remembered.</p>';
         }
         if (THEMES.indexOf(t) === -1) return '<p>theme: unknown theme "' + esc(t) + '". options: ' + THEMES.join(', ') + '</p>';
         applyTheme(t);
@@ -1128,6 +1236,31 @@
     make: { hidden: true, run: function (a) { return a.join(' ') === 'me a sandwich' ? '<p>What? Make it yourself.</p>' : '<p>make: *** No rule to make target \'' + esc(a.join(' ') || 'all') + '\'.  Stop.</p>'; } },
     ssh: { hidden: true, run: function () { return '<p>ssh: connect to host: you\'re already here.</p>'; } },
     git: { hidden: true, run: function () { return '<p>' + ext(S.source, 'this site is on github') + '. PRs welcome.</p>'; } },
+    strings: {
+      hidden: true,
+      run: function (a, stdin) {
+        var f = a[0];
+        if (f === '.vault.bin' || f === './.vault.bin') return '<pre>' + esc(VAULT_STRINGS.join('\n')) + '</pre>';
+        if (stdin !== undefined) return '<pre class="wrap">' + esc(stdin) + '</pre>';
+        if (!f) return '<p class="dim">usage: strings &lt;file&gt;</p>';
+        return '<p>strings: \'' + esc(f) + '\': No such file</p>';
+      }
+    },
+    file: { hidden: true, run: function (a) { return a[0] === '.vault.bin' ? '<p>.vault.bin: ELF 64-bit LSB executable, x86-64, not stripped (encrypted with love)</p>' : a[0] ? '<p>' + esc(a[0]) + ': ASCII text, probably</p>' : '<p class="dim">usage: file &lt;file&gt;</p>'; } },
+    hexdump: { hidden: true, run: function (a) { return a[0] === '.vault.bin' ? '<pre>00000000  7f 45 4c 46 02 01 01 00  00 00 00 00 00 00 00 00  |.ELF............|\n*\n</pre><p class="dim">that\'s a lot of hex. something friendlier pulls out the readable bits.</p>' : '<p class="dim">usage: hexdump &lt;file&gt;</p>'; } },
+    xxd: { hidden: true, run: function (a) { return COMMANDS.hexdump.run(a); } },
+    objdump: { hidden: true, run: function (a) { return a.join(' ').indexOf('.vault.bin') !== -1 ? '<p>objdump: disassembling 4,096 instructions of hand-written assembly... respect, but there\'s a faster way to find text in a binary.</p>' : '<p class="dim">usage: objdump -d &lt;file&gt;</p>'; } },
+    rot13: { hidden: true, run: function (a, stdin) { return '<pre class="wrap">' + esc(rot13(stdin !== undefined ? stdin : a.join(' '))) + '</pre>'; } },
+    unlock: { hidden: true, run: function (a) { return unlockVault(a.join(' ')); } },
+    snow: {
+      hidden: true,
+      app: true,
+      run: function () {
+        if (!vaultCracked()) return '<p>-bash: snow: command not found</p>';
+        startSnow();
+        return '';
+      }
+    },
     // pipe filters (also usable on their own)
     grep: { hidden: true, run: function (a, stdin) { if (stdin === undefined) return '<p class="dim">usage: fortune | grep word</p>'; var q = a.join(' ').toLowerCase(); return '<pre class="wrap">' + esc(stdin.split('\n').filter(function (l) { return l.toLowerCase().indexOf(q) !== -1; }).join('\n')) + '</pre>'; } },
     wc: { hidden: true, run: function (a, stdin) { var t = stdin || ''; return '<pre>' + [t ? t.split('\n').length : 0, t.split(/\s+/).filter(Boolean).length, t.length].map(function (n) { return String(n).padStart(8); }).join('') + '</pre>'; } },
@@ -1176,7 +1309,8 @@
       var parts = line.split(/\s+/);
       var name = resolve(parts[0]);
       var args = parts.slice(1);
-      if (name.indexOf('./') === 0) { args = [name.slice(2)].concat(args); name = 'open'; }
+      if (name === './.vault.bin') { name = 'unlock'; if (!args.length) { print('<p>enter password: <span class="dim">(usage: ./.vault.bin &lt;password&gt;)</span></p>'); return scrollDown(); } }
+      else if (name.indexOf('./') === 0) { args = [name.slice(2)].concat(args); name = 'open'; }
       var c = COMMANDS[name];
       html = c ? c.run(args) : '<p>-bash: ' + esc(parts[0]) + ': command not found <span class="dim">(try</span> ' + cmd('help') + '<span class="dim">)</span></p>';
     }
@@ -1198,6 +1332,7 @@
     if (first === 'theme') pool = THEMES;
     else if (first === 'man') pool = ['divyanka'];
     else pool = Object.keys(FILES).concat(['writing/']).concat(Object.keys(S.links)).concat(S.posts.map(function (p) { return slug(p.url); }));
+    if (last.charAt(0) === '.') pool = pool.concat(['.secrets', '.vault.bin']);
     return pool.filter(function (k) { return k.indexOf(last) === 0; });
   }
   function complete() {
@@ -1315,7 +1450,7 @@
   try {
     console.log(
       '%chey, nerd.%c\nyou opened devtools on a personal website. respect.\nthe source is here: ' + S.source + '\ntry `fortune | cowsay`, `sl`, or `ls -a` in the terminal.',
-      'font: 700 14px monospace; color: #00cd00',
+      'font: 700 14px monospace; color: #f5b8d6',
       'font: 12px monospace; color: inherit'
     );
   } catch (e) { /* noop */ }
