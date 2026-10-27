@@ -2,19 +2,9 @@
 <html lang="en">
   {% include head.html %}
   <body class="home">
-    <script>
-      try { if (localStorage.getItem('divyanka:home-theme') === 'light') document.body.classList.add('light'); } catch (e) {}
-    </script>
+    {% include nav.html %}
 
     <canvas id="sky" aria-hidden="true"></canvas>
-
-    <nav class="top" aria-label="Main">
-      <a href="{{ '/' | relative_url }}" aria-current="page">home</a>
-      <a href="{{ '/blog/' | relative_url }}">writing</a>
-      <a href="{{ site.instagram }}" target="_blank" rel="noopener">photos</a>
-      <a href="{{ '/terminal/' | relative_url }}">terminal</a>
-      <button type="button" id="theme-toggle" aria-label="Switch light or dark mode">light</button>
-    </nav>
 
     <div class="corner" aria-live="polite">
       <span id="where">london</span><br>

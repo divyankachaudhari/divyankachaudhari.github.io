@@ -423,7 +423,7 @@
   });
 
   var toggle = document.getElementById('theme-toggle');
-  function syncToggle() { if (toggle) toggle.textContent = document.body.classList.contains('light') ? 'dark' : 'light'; }
+  function syncToggle() { if (toggle) toggle.setAttribute('aria-label', document.body.classList.contains('light') ? 'Switch to dark mode' : 'Switch to light mode'); }
   if (toggle) {
     toggle.addEventListener('click', function () {
       document.body.classList.toggle('light');

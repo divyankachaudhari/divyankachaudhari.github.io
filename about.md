@@ -2,9 +2,6 @@
 layout: page
 title: About
 description: "Divyanka Chaudhari is a quant at a hedge fund in London, previously Computer Science at IIT Delhi. Likes the internet, biking, bouldering, skating and pottery."
-profile:
-  align: left
-  image: images/p1.jpg
 ---
 
 <img class="profile-photo" width="200" height="200" src="/divyanka.png" alt="Photo of Divyanka Chaudhari">
@@ -23,6 +20,3 @@ Some random cool things: <br>
 - ASAP science's <a href="https://youtu.be/rz4Dd1I_fX0">periodic table song</a> which I remember by heart.<br>
 - Me, I'm cool.
 </p>
-
-<br>
-<sub>Website template is [Hyde](https://github.com/poole/hyde).</sub>

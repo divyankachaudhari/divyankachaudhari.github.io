@@ -17,8 +17,6 @@ author:
   name:           'Divyanka Chaudhari'
   url:            https://divyankachaudhari.github.io
 
-paginate:         5
-paginate_path:    "/blog/page:num/"
 
 # Visitor tracking: fill in ONE (see _includes/analytics.html)
 google_analytics: ""   # e.g. G-ABC123XYZ9
@@ -37,6 +35,5 @@ linkedin:         https://www.linkedin.com/in/divyanka-chaudhari/
 instagram:        https://www.instagram.com/divycx.jpeg/
 
 plugins:
-  - jekyll-paginate
   - jekyll-gist
   - jekyll-sitemap

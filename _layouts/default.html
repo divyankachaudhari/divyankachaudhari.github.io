@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
+<html lang="en">
   {% include head.html %}
+  <body class="reader">
+    {% include nav.html %}
 
-  <body>
-
-    {% include sidebar.html %}
-
-    <div class="content container">
+    <main class="sheet">
       {{ content }}
-    </div>
+    </main>
 
+    <footer class="foot">
+      <a href="{{ site.github.repo }}" target="_blank" rel="noopener">github</a> /
+      <a href="{{ site.linkedin }}" target="_blank" rel="noopener">linkedin</a> /
+      <a href="{{ site.instagram }}" target="_blank" rel="noopener">instagram</a>
+    </footer>
+
+    <script src="{{ '/public/js/theme.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
   </body>
 </html>

@@ -1,10 +1,15 @@
-/* Homepage: an ASCII London skyline that follows the season, with a short intro on top. */
+/* Shared by every page except the terminal.
+   Homepage: an ASCII London skyline that follows the season, with a short intro on top.
+   Reading pages (writing, about, contact, posts): same colours, nav and type. */
 
 :root {
   --bg: #15131a;
   --fg: #e4dff0;
   --dim: #8a849c;
   --link: #f5b8d6;
+  --code: #f8e3a8;
+  --rule: #2e2a36;
+  --surface: #1c1a22;
   --mono: Menlo, Monaco, "DejaVu Sans Mono", "Lucida Console", "Courier New", monospace;
 }
 body.light {
@@ -12,6 +17,9 @@ body.light {
   --fg: #2e2a36;
   --dim: #7d768a;
   --link: #b8577f;
+  --code: #8a5a12;
+  --rule: #ddd5e6;
+  --surface: #ece6dc;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -69,6 +77,9 @@ a:hover { color: var(--link); text-decoration-color: var(--link); }
   cursor: pointer;
 }
 #theme-toggle:hover { color: var(--fg); }
+#theme-toggle svg { display: block; transform: translateY(2px); }
+#theme-toggle .i-moon, body.light #theme-toggle .i-sun { display: none; }
+body.light #theme-toggle .i-moon { display: block; }
 
 .corner {
   position: fixed;
@@ -116,4 +127,90 @@ a:hover { color: var(--link); text-decoration-color: var(--link); }
   .top { gap: 14px; top: 14px; }
   .corner { display: none; }
   .intro { left: 20px; right: 20px; top: 13vh; }
+}
+
+/* ---------- reading pages ---------- */
+
+body.reader {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--mono);
+  font-size: 14px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+body.reader .top {
+  position: static;
+  transform: none;
+  justify-content: center;
+  padding: 18px 16px 0;
+  flex-wrap: wrap;
+}
+
+.sheet {
+  max-width: 680px;
+  margin: 64px auto 48px;
+  padding: 0 20px;
+}
+
+.sheet h1, .sheet h2, .sheet h3, .sheet h4 {
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 2.2em 0 .8em;
+}
+.sheet h1 { font-size: 1.15em; margin-top: 0; }
+.sheet h2::before { content: "## "; color: var(--dim); }
+.sheet h3::before { content: "### "; color: var(--dim); }
+.sheet p, .sheet ul, .sheet ol, .sheet pre, .sheet blockquote, .sheet table, .sheet .highlight { margin: 0 0 1.2em; }
+.sheet ul, .sheet ol { padding-left: 2ch; }
+.sheet li { margin-bottom: .3em; }
+.sheet img { display: block; max-width: 100%; height: auto; margin: 1.6em auto; border-radius: 2px; }
+.sheet hr { border: 0; border-top: 1px dashed var(--rule); margin: 2.4em 0; }
+.sheet strong { color: var(--fg); }
+.sheet blockquote { margin-left: 0; padding-left: 2ch; border-left: 1px solid var(--dim); color: var(--dim); }
+.sheet code { color: var(--code); font-family: inherit; font-size: .95em; }
+.sheet pre {
+  overflow-x: auto;
+  padding: 1em 1.2em;
+  background: var(--surface);
+  border-radius: 2px;
+  line-height: 1.55;
+  font-size: .92em;
+}
+.sheet pre code { color: var(--fg); }
+.sheet .highlight pre { margin: 0; }
+.sheet table { border-collapse: collapse; width: 100%; font-size: .92em; }
+.sheet th, .sheet td { border: 1px solid var(--rule); padding: .35em .7em; text-align: left; }
+.sheet iframe, .sheet embed, .sheet .embed { display: block; width: 100%; max-width: 100%; border: 0; border-radius: 2px; background: #fff; }
+
+.post-date { color: var(--dim); margin: 0 0 .3em !important; }
+.back { max-width: 680px; margin: -16px auto 48px; padding: 0 20px; }
+
+.post-list { list-style: none; padding: 0 !important; }
+.post-list li { display: flex; gap: 2ch; margin: 0 0 .5em; }
+.post-list time { flex: none; color: var(--dim); }
+
+.message {
+  padding: 1em 1.4em;
+  border: 1px dashed var(--rule);
+  border-radius: 2px;
+  color: var(--fg);
+}
+.profile-photo {
+  float: right;
+  width: 140px;
+  height: 140px;
+  margin: .4em 0 1em 2em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.foot { text-align: center; color: var(--dim); padding: 0 16px 40px; font-size: 12px; }
+
+@media (max-width: 640px) {
+  body.reader { font-size: 13px; }
+  .sheet { margin-top: 40px; }
+  .post-list li { flex-direction: column; gap: 0; margin-bottom: .9em; }
+  .profile-photo { float: none; display: block; margin: 0 auto 1.4em; }
 }
