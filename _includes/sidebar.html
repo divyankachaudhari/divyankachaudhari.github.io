@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ '/blog/' | relative_url }}">
+        <a href="{{ '/' | relative_url }}">
           {{ site.title }}
         </a>
       </h1>
@@ -23,7 +23,7 @@
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
         {% endif %}
       {% endfor %}
-      <a class="sidebar-nav-item" href="{{ '/' | relative_url }}">Terminal <span class="sidebar-nav-hint">&gt;_</span></a>
+      <a class="sidebar-nav-item" href="{{ '/terminal/' | relative_url }}">Terminal <span class="sidebar-nav-hint">&gt;_</span></a>
     </nav>
 
     {% include social.html %}

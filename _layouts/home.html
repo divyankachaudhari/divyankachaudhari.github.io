@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="home">
+    <script>
+      try { if (localStorage.getItem('divyanka:home-theme') === 'light') document.body.classList.add('light'); } catch (e) {}
+    </script>
+
+    <canvas id="sky" aria-hidden="true"></canvas>
+
+    <nav class="top" aria-label="Main">
+      <a href="{{ '/' | relative_url }}" aria-current="page">home</a>
+      <a href="{{ '/blog/' | relative_url }}">writing</a>
+      <a href="{{ site.instagram }}" target="_blank" rel="noopener">photos</a>
+      <a href="{{ '/terminal/' | relative_url }}">terminal</a>
+      <button type="button" id="theme-toggle" aria-label="Switch light or dark mode">light</button>
+    </nav>
+
+    <div class="corner" aria-live="polite">
+      <span id="where">london</span><br>
+      <span id="count">click the sky</span>
+    </div>
+
+    <main class="intro">
+      <p class="tagline"><span id="tagline">hibernating. back in april.</span><span class="cursor" aria-hidden="true"></span></p>
+
+      <p>hi, i'm divyanka.</p>
+      <p>quant @ a hedge fund, in london.</p>
+      <p>before that: google (intern, twice), alexa ai @ amazon (intern), and computer science @ iit delhi.</p>
+      <p>off-hours: bikes, bouldering, skating, and lopsided pottery.</p>
+
+      <p class="links">
+        <a href="{{ site.github.repo }}" target="_blank" rel="noopener">github</a> /
+        <a href="{{ site.linkedin }}" target="_blank" rel="noopener">linkedin</a> /
+        <a href="{{ site.instagram }}" target="_blank" rel="noopener">instagram</a>
+      </p>
+    </main>
+
+    <script src="{{ '/public/js/home.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+  </body>
+</html>

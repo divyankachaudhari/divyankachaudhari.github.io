@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>
-    {% if page.layout == "terminal" or page.title == "Blog" %}
+    {% if page.layout == "home" or page.layout == "terminal" or page.title == "Blog" %}
       {{ site.title }} &middot; {{ site.tagline }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
@@ -36,7 +36,9 @@
   </script>
 
   <!-- CSS: the terminal homepage has its own look; every other page uses the sidebar theme -->
-  {% if page.layout == "terminal" %}
+  {% if page.layout == "home" %}
+  <link rel="stylesheet" href="{{ '/public/css/home.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% elsif page.layout == "terminal" %}
   <link rel="stylesheet" href="{{ '/public/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   {% else %}
   <link rel="stylesheet" href="{{ '/public/css/poole.css' | relative_url }}?v={{ site.time | date: '%s' }}">

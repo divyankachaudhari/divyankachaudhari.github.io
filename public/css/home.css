@@ -1,0 +1,119 @@
+/* Homepage: an ASCII London skyline that follows the season, with a short intro on top. */
+
+:root {
+  --bg: #15131a;
+  --fg: #e4dff0;
+  --dim: #8a849c;
+  --link: #f5b8d6;
+  --mono: Menlo, Monaco, "DejaVu Sans Mono", "Lucida Console", "Courier New", monospace;
+}
+body.light {
+  --bg: #f4f0e8;
+  --fg: #2e2a36;
+  --dim: #7d768a;
+  --link: #b8577f;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body.home {
+  margin: 0;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--mono);
+  font-size: 13px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: var(--link); color: var(--bg); }
+
+#sky {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: crosshair;
+}
+
+a { color: var(--fg); text-decoration: underline; text-decoration-color: var(--dim); text-underline-offset: 3px; }
+a:hover { color: var(--link); text-decoration-color: var(--link); }
+:focus-visible { outline: 1px dotted var(--link); outline-offset: 3px; }
+
+/* nav: plain words, no icons */
+.top {
+  position: fixed;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: flex;
+  gap: 22px;
+  align-items: baseline;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.top a { color: var(--dim); text-decoration: none; }
+.top a:hover { color: var(--fg); }
+.top a[aria-current="page"] { color: var(--fg); font-weight: bold; }
+#theme-toggle {
+  font: inherit;
+  color: var(--dim);
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+#theme-toggle:hover { color: var(--fg); }
+
+.corner {
+  position: fixed;
+  top: 18px;
+  right: 22px;
+  z-index: 2;
+  text-align: right;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--dim);
+  pointer-events: none;
+}
+
+/* the intro sits over the sky, left of centre */
+.intro {
+  position: fixed;
+  z-index: 2;
+  left: max(24px, 18vw);
+  top: 17vh;
+  max-width: 540px;
+  pointer-events: none;
+  text-shadow: 0 0 6px var(--bg), 0 0 2px var(--bg);
+}
+.intro a, .intro button { pointer-events: auto; }
+.intro p { margin: 0; }
+.tagline { color: var(--dim); margin-bottom: 1.6em !important; min-height: 1.7em; }
+.cursor {
+  display: inline-block;
+  width: .6em;
+  height: 1.1em;
+  margin-left: 2px;
+  vertical-align: -.2em;
+  background: var(--dim);
+  animation: blink 1.1s steps(1) infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+.links { margin-top: 1.4em !important; color: var(--dim); }
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor { animation: none; }
+}
+
+@media (max-width: 640px) {
+  body.home { font-size: 12px; }
+  .top { gap: 14px; top: 14px; }
+  .corner { display: none; }
+  .intro { left: 20px; right: 20px; top: 13vh; }
+}
